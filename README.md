@@ -9,7 +9,7 @@ The repository is organized as follows:
 
 Dependencies:
 ----------
-	* [Java Path Finder](https://github.com/javapathfinder/jpf-core)
-	* [jConstraint library](https://github.com/psycopaths/jconstraints)
-	* [j3Constrant-Z3](https://github.com/psycopaths/jconstraints-z3)
-	* [Z3 SMT solver](https://github.com/Z3Prover/z3/tree/z3-4.4.1) version 4.4.1
+  * [Java Path Finder](https://github.com/javapathfinder/jpf-core)
+  * [jConstraint library](https://github.com/psycopaths/jconstraints)
+  * [j3Constrant-Z3](https://github.com/psycopaths/jconstraints-z3)
+  * [Z3 SMT solver](https://github.com/Z3Prover/z3/tree/z3-4.4.1) (version 4.4.1)
