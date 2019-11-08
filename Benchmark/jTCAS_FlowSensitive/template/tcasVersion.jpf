@@ -1,0 +1,7 @@
+@include=../tcas.jpf
+experiment.versionid=
+
+jdart.configs.tcas.faultlocalization.max_mcs_size=1
+
+experiment.faultylines=
+experiment.faultyinsns=

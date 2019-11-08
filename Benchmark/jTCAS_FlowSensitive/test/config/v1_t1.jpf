@@ -1,0 +1,16 @@
+@include=../v1_tcasVersion.jpf
+experiment.id=t1
+target.args=958;1;1;2597;574;4253;0;399;400;0;0;1
+jdart.log.output=./log_${experiment.versionid}_${experiment.id}.txt
+ffl.report.filepath=./result_${experiment.versionid}_${experiment.id}.txt
+
+
+debug.formula=true
+debug.controlflowgraph=true
+
+log.level=INFO
+log.output=err
+
+
+#UnsatCoreDriven, McsDriven, ProgramFormula, LocFaults, OnDemand,IncAngelic, FlowInSensitive, FlowSensitive
+ffl.faultlocalizator=FlowSensitive

@@ -1,0 +1,9 @@
+para_version=KO4
+@include=./MaxMin6Var.jpf
+
+target=Maxmin6var${para_version}
+concolic.method.maxmin=Maxmin6var${para_version}.maxmin(a:int,b:int,c:int,d:int,e:int,f:int)
+experiment.faultylines={15;18;22}
+#experiment.versionid=${para_version}
+
+jdart.configs.maxmin.faultlocalization.max_mcs_size=3

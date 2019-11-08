@@ -1,0 +1,5 @@
+@include=../v12_tcasVersion.jpf
+experiment.id=t766
+target.args=610;0;0;0;587;665;3;673;722;0;2;1
+jdart.log.output=./log/log_${experiment.versionid}_${experiment.id}.txt
+ffl.report.filepath=./result/result_${experiment.versionid}_${experiment.id}.txt

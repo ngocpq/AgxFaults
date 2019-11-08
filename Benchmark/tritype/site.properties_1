@@ -1,0 +1,16 @@
+# JPF site configuration
+
+jpf.home = E:/Workspace/AutomatedDebugging
+#jpf.home = E:/Workspace/JavaPathFinder
+
+# can only expand system properties at this point
+jpf-core = E:/Workspace/AutomatedDebugging/jpf-core
+#jpf-core = ${jpf.home}/jpf-core
+
+jpf-shell = ${jpf.home}/jpf-shell
+extensions+=,${jpf-shell}
+
+jpf-ffl = ${jpf.home}/jpf-ffl
+
+#jConstraint-jar = ${jpf.home}/jConstraints/target/jconstraints-0.9.1-SNAPSHOT.jar
+jConstraint-jar = ${jpf.home}/jConstraints/target/jconstraints-0.9.2-SNAPSHOT.jar

@@ -1,0 +1,34 @@
+@include=./jpf-ffl.jpf
+
+target=TestRunner
+
+#concolic.method=run_agx
+concolic.method=run_symb
+
+concolic.method.run_agx=TestRunner.run_agx()
+concolic.method.run_agx.config=trityp
+
+concolic.method.run_symb=TestRunner.run_symb(i:int,j:int,k:int)
+concolic.method.run_symb.config=trityp
+
+#symbolic search setting
+jdart.configs.trityp.exploration.initial=true
+
+jdart.configs.trityp.faultlocalization.enabled=true
+jdart.configs.trityp.faultlocalization.angelicLocation=Tritype${para_version}.*
+#NONE, SINGLE_PATH, ANGELIC
+jdart.configs.trityp.faultlocalization.formulatype=ANGELIC
+
+
++classpath=${config_path}/${para_version}	
+sourcepath=${config_path}/${para_version}	
+
+
+
+debug.formula=false
+#debug.controlflowgraph=false
+
+experiment.versionid=Tritype${para_version}
+
+log.level=OFF
+log.output=err

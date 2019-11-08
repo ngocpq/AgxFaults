@@ -1,0 +1,29 @@
+############################################################################### 
+#
+# default jdart tools
+#
+@using jpf-ffl
+
+shell=gov.nasa.jpf.jfaults.JDart
+symbolic.dp=z3
+symbolic.dp.z3.bitvectors=true
+
+#TIME OUT = 10s
+#z3.timeout=10000
+############################################################################### 
+#
+# logging and jpf output
+#
+log.info=jdart
+log.info=constraints
+
+# suppress jpf output
+report.console.start=
+report.console.finished=
+report.console.property_violation=
+
+jdart.configs.all_fields_symbolic.symbolic.include=this.*
+
+#report.output.writeangelictrace=true
+debug.formula=false
+debug.controlflowgraph=false

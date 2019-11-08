@@ -1,0 +1,21 @@
+@include=./jdart_ffl.jpf
+
+#symbolic search setting
+jdart.configs.maxmin.exploration.initial=false
+
+#fault localization config
+jdart.configs.maxmin.faultlocalization.enabled=true
+#NONE, SINGLE_PATH, ANGELIC
+jdart.configs.maxmin.faultlocalization.formulatype=ANGELIC
+jdart.configs.maxmin.faultlocalization.angelicLocation=*
+
+jdart.configs.maxmin.faultlocalization.max_mcs_size=1
+
+concolic.method=maxmin
+concolic.method.maxmin.config=maxmin
+
+log.level=INFO
+log.output=err
+report.output.writeangelictrace=true
+
+experiment.versionid=MaxMin6Var${para_version}

@@ -1,0 +1,7 @@
+experiment.id=t40
+target.args=40
+
+jdart.configs.squareroot.max_nesting_control_depth=40
+
+
+@include=../SquareRoot.jpf

@@ -1,0 +1,7 @@
+@include=./BSearchKO_V1.jpf
+experiment.id=t1
+target.args=3;1;2;3;4
+jdart.configs.bsearch.max_nesting_control_depth=60
+
+jdart.log.output=./log_${experiment.versionid}_${experiment.id}.txt
+ffl.report.filepath=./result_${experiment.versionid}_${experiment.id}.txt

@@ -1,0 +1,29 @@
+@include=../../config/jpf-ffl.jpf
+
+target=agxfaults.array_bsearch.TestRunnerBSearchKO
+
+concolic.method=run_agx
+#concolic.method=run_symb
+
+concolic.method.run_agx=agxfaults.array_bsearch.TestRunnerBSearchKO.run_agx()
+concolic.method.run_agx.config=bsearch
+
+concolic.method.run_symb=agxfaults.array_bsearch.TestRunnerBSearchKO.run_symb(a:int[],x:int)
+concolic.method.run_symb.config=bsearch
+
+#symbolic search setting
+jdart.configs.bsearch.exploration.initial=true
+
+jdart.configs.bsearch.faultlocalization.enabled=true
+jdart.configs.bsearch.faultlocalization.angelicLocation=agxfaults.array_bsearch.BSearchKO.*
+#NONE, SINGLE_PATH, ANGELIC
+jdart.configs.bsearch.faultlocalization.formulatype=ANGELIC
+
+
+debug.formula=true
+debug.controlflowgraph=true
+
+experiment.versionid=BSearchKO${para_version}
+
+log.level=INFO
+log.output=err

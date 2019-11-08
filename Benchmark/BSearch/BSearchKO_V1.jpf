@@ -1,0 +1,10 @@
+para_version=V1
+
+@include=./BSearchKO.jpf
+
+experiment.faultylines=
+jdart.configs.bsearch.faultlocalization.max_mcs_size=2
+
+
++classpath=${config_path}/${para_version}	
+sourcepath=${config_path}/${para_version}	

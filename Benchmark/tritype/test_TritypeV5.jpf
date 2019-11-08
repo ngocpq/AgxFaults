@@ -1,0 +1,6 @@
+para_version=V5
+@include=./Tritype.jpf
+
+experiment.faultylines={35;48}
+
+jdart.configs.caller.faultlocalization.max_mcs_size=2

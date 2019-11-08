@@ -1,0 +1,544 @@
+Compiled from "tcas.java"
+public class tcas {
+  public static int OLEV;
+
+  public static int MAXALTDIFF;
+
+  public static int MINSEP;
+
+  public static int NOZCROSS;
+
+  public static int Cur_Vertical_Sep;
+
+  public static boolean High_Confidence;
+
+  public static boolean Two_of_Three_Reports_Valid;
+
+  public static int Own_Tracked_Alt;
+
+  public static int Own_Tracked_Alt_Rate;
+
+  public static int Other_Tracked_Alt;
+
+  public static int Alt_Layer_Value;
+
+  static int Positive_RA_Alt_Thresh_0;
+
+  static int Positive_RA_Alt_Thresh_1;
+
+  static int Positive_RA_Alt_Thresh_2;
+
+  static int Positive_RA_Alt_Thresh_3;
+
+  public static int Up_Separation;
+
+  public static int Down_Separation;
+
+  public static int Other_RAC;
+
+  public static int NO_INTENT;
+
+  public static int DO_NOT_CLIMB;
+
+  public static int DO_NOT_DESCEND;
+
+  public static int Other_Capability;
+
+  public static int TCAS_TA;
+
+  public static int OTHER;
+
+  public static int Climb_Inhibit;
+
+  public static int UNRESOLVED;
+
+  public static int UPWARD_RA;
+
+  public static int DOWNWARD_RA;
+
+  public tcas();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  void initialize();
+    Code:
+       0: sipush        400
+       3: putstatic     #2                  // Field Positive_RA_Alt_Thresh_0:I
+       6: sipush        500
+       9: putstatic     #3                  // Field Positive_RA_Alt_Thresh_1:I
+      12: sipush        640
+      15: putstatic     #4                  // Field Positive_RA_Alt_Thresh_2:I
+      18: sipush        740
+      21: putstatic     #5                  // Field Positive_RA_Alt_Thresh_3:I
+      24: return
+
+  int ALIM();
+    Code:
+       0: getstatic     #6                  // Field Alt_Layer_Value:I
+       3: ifne          10
+       6: getstatic     #2                  // Field Positive_RA_Alt_Thresh_0:I
+       9: ireturn
+      10: getstatic     #6                  // Field Alt_Layer_Value:I
+      13: iconst_1
+      14: if_icmpne     21
+      17: getstatic     #3                  // Field Positive_RA_Alt_Thresh_1:I
+      20: ireturn
+      21: getstatic     #6                  // Field Alt_Layer_Value:I
+      24: iconst_2
+      25: if_icmpne     32
+      28: getstatic     #4                  // Field Positive_RA_Alt_Thresh_2:I
+      31: ireturn
+      32: getstatic     #5                  // Field Positive_RA_Alt_Thresh_3:I
+      35: ireturn
+
+  int Inhibit_Biased_Climb();
+    Code:
+       0: getstatic     #7                  // Field Climb_Inhibit:I
+       3: ifle          14
+       6: getstatic     #8                  // Field Up_Separation:I
+       9: getstatic     #9                  // Field NOZCROSS:I
+      12: iadd
+      13: ireturn
+      14: getstatic     #8                  // Field Up_Separation:I
+      17: ireturn
+
+  boolean Non_Crossing_Biased_Climb();
+    Code:
+       0: aload_0
+       1: invokevirtual #10                 // Method Inhibit_Biased_Climb:()I
+       4: getstatic     #11                 // Field Down_Separation:I
+       7: if_icmple     15
+      10: iconst_1
+      11: istore_1
+      12: goto          17
+      15: iconst_0
+      16: istore_1
+      17: iload_1
+      18: ifeq          54
+      21: aload_0
+      22: invokevirtual #12                 // Method Own_Below_Threat:()Z
+      25: ifeq          45
+      28: aload_0
+      29: invokevirtual #12                 // Method Own_Below_Threat:()Z
+      32: ifeq          49
+      35: getstatic     #11                 // Field Down_Separation:I
+      38: aload_0
+      39: invokevirtual #13                 // Method ALIM:()I
+      42: if_icmpge     49
+      45: iconst_1
+      46: goto          50
+      49: iconst_0
+      50: istore_3
+      51: goto          86
+      54: aload_0
+      55: invokevirtual #14                 // Method Own_Above_Threat:()Z
+      58: ifeq          84
+      61: getstatic     #15                 // Field Cur_Vertical_Sep:I
+      64: getstatic     #16                 // Field MINSEP:I
+      67: if_icmplt     84
+      70: getstatic     #8                  // Field Up_Separation:I
+      73: aload_0
+      74: invokevirtual #13                 // Method ALIM:()I
+      77: if_icmplt     84
+      80: iconst_1
+      81: goto          85
+      84: iconst_0
+      85: istore_3
+      86: iload_3
+      87: ireturn
+
+  boolean Non_Crossing_Biased_Descend();
+    Code:
+       0: aload_0
+       1: invokevirtual #10                 // Method Inhibit_Biased_Climb:()I
+       4: getstatic     #11                 // Field Down_Separation:I
+       7: if_icmple     15
+      10: iconst_1
+      11: istore_1
+      12: goto          17
+      15: iconst_0
+      16: istore_1
+      17: iload_1
+      18: ifeq          56
+      21: aload_0
+      22: invokevirtual #12                 // Method Own_Below_Threat:()Z
+      25: ifeq          51
+      28: getstatic     #15                 // Field Cur_Vertical_Sep:I
+      31: getstatic     #16                 // Field MINSEP:I
+      34: if_icmplt     51
+      37: getstatic     #11                 // Field Down_Separation:I
+      40: aload_0
+      41: invokevirtual #13                 // Method ALIM:()I
+      44: if_icmplt     51
+      47: iconst_1
+      48: goto          52
+      51: iconst_0
+      52: istore_3
+      53: goto          86
+      56: aload_0
+      57: invokevirtual #14                 // Method Own_Above_Threat:()Z
+      60: ifeq          80
+      63: aload_0
+      64: invokevirtual #14                 // Method Own_Above_Threat:()Z
+      67: ifeq          84
+      70: getstatic     #8                  // Field Up_Separation:I
+      73: aload_0
+      74: invokevirtual #13                 // Method ALIM:()I
+      77: if_icmplt     84
+      80: iconst_1
+      81: goto          85
+      84: iconst_0
+      85: istore_3
+      86: iload_3
+      87: ireturn
+
+  boolean Own_Below_Threat();
+    Code:
+       0: getstatic     #17                 // Field Own_Tracked_Alt:I
+       3: getstatic     #18                 // Field Other_Tracked_Alt:I
+       6: if_icmpge     13
+       9: iconst_1
+      10: goto          14
+      13: iconst_0
+      14: ireturn
+
+  boolean Own_Above_Threat();
+    Code:
+       0: getstatic     #18                 // Field Other_Tracked_Alt:I
+       3: getstatic     #17                 // Field Own_Tracked_Alt:I
+       6: if_icmpge     13
+       9: iconst_1
+      10: goto          14
+      13: iconst_0
+      14: ireturn
+
+  int alt_sep_test();
+    Code:
+       0: getstatic     #19                 // Field High_Confidence:Z
+       3: ifeq          19
+       6: getstatic     #20                 // Field Own_Tracked_Alt_Rate:I
+       9: getstatic     #21                 // Field OLEV:I
+      12: if_icmpgt     19
+      15: iconst_1
+      16: goto          20
+      19: iconst_0
+      20: istore_1
+      21: getstatic     #22                 // Field Other_Capability:I
+      24: getstatic     #23                 // Field TCAS_TA:I
+      27: if_icmpne     34
+      30: iconst_1
+      31: goto          35
+      34: iconst_0
+      35: istore_2
+      36: getstatic     #24                 // Field Two_of_Three_Reports_Valid:Z
+      39: ifeq          55
+      42: getstatic     #25                 // Field Other_RAC:I
+      45: getstatic     #26                 // Field NO_INTENT:I
+      48: if_icmpne     55
+      51: iconst_1
+      52: goto          56
+      55: iconst_0
+      56: istore_3
+      57: getstatic     #27                 // Field UNRESOLVED:I
+      60: istore        6
+      62: iload_1
+      63: ifeq          169
+      66: iload_2
+      67: ifeq          74
+      70: iload_3
+      71: ifne          78
+      74: iload_2
+      75: ifne          169
+      78: aload_0
+      79: invokevirtual #28                 // Method Non_Crossing_Biased_Climb:()Z
+      82: ifeq          96
+      85: aload_0
+      86: invokevirtual #12                 // Method Own_Below_Threat:()Z
+      89: ifeq          96
+      92: iconst_1
+      93: goto          97
+      96: iconst_0
+      97: istore        4
+      99: aload_0
+     100: invokevirtual #29                 // Method Non_Crossing_Biased_Descend:()Z
+     103: ifeq          117
+     106: aload_0
+     107: invokevirtual #14                 // Method Own_Above_Threat:()Z
+     110: ifeq          117
+     113: iconst_1
+     114: goto          118
+     117: iconst_0
+     118: istore        5
+     120: iload         4
+     122: ifeq          138
+     125: iload         5
+     127: ifeq          138
+     130: getstatic     #27                 // Field UNRESOLVED:I
+     133: istore        6
+     135: goto          169
+     138: iload         4
+     140: ifeq          151
+     143: getstatic     #30                 // Field UPWARD_RA:I
+     146: istore        6
+     148: goto          169
+     151: iload         5
+     153: ifeq          164
+     156: getstatic     #31                 // Field DOWNWARD_RA:I
+     159: istore        6
+     161: goto          169
+     164: getstatic     #27                 // Field UNRESOLVED:I
+     167: istore        6
+     169: iload         6
+     171: ireturn
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: aload_0
+       1: arraylength
+       2: iconst_1
+       3: iadd
+       4: istore_1
+       5: iload_1
+       6: bipush        13
+       8: if_icmpge     55
+      11: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      14: ldc           #33                 // String Error: Command line arguments are
+      16: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      19: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      22: ldc           #35                 // String Cur_Vertical_Sep, High_Confidence, Two_of_Three_Reports_Valid
+      24: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      27: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      30: ldc           #36                 // String Own_Tracked_Alt, Own_Tracked_Alt_Rate, Other_Tracked_Alt
+      32: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      35: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      38: ldc           #37                 // String Alt_Layer_Value, Up_Separation, Down_Separation
+      40: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      43: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      46: ldc           #38                 // String Other_RAC, Other_Capability, Climb_Inhibit
+      48: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      51: iconst_1
+      52: invokestatic  #39                 // Method java/lang/System.exit:(I)V
+      55: new           #40                 // class tcas
+      58: dup
+      59: invokespecial #41                 // Method "<init>":()V
+      62: astore_2
+      63: aload_2
+      64: invokevirtual #42                 // Method initialize:()V
+      67: aload_2
+      68: pop
+      69: new           #43                 // class java/lang/StringBuilder
+      72: dup
+      73: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+      76: aload_0
+      77: iconst_0
+      78: aaload
+      79: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      82: ldc           #46                 // String
+      84: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      87: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      90: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+      93: putstatic     #15                 // Field Cur_Vertical_Sep:I
+      96: new           #43                 // class java/lang/StringBuilder
+      99: dup
+     100: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     103: aload_0
+     104: iconst_1
+     105: aaload
+     106: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     109: ldc           #46                 // String
+     111: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     114: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     117: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     120: ifne          132
+     123: aload_2
+     124: pop
+     125: iconst_0
+     126: putstatic     #19                 // Field High_Confidence:Z
+     129: goto          138
+     132: aload_2
+     133: pop
+     134: iconst_1
+     135: putstatic     #19                 // Field High_Confidence:Z
+     138: new           #43                 // class java/lang/StringBuilder
+     141: dup
+     142: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     145: aload_0
+     146: iconst_2
+     147: aaload
+     148: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     151: ldc           #46                 // String
+     153: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     156: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     159: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     162: ifne          174
+     165: aload_2
+     166: pop
+     167: iconst_0
+     168: putstatic     #24                 // Field Two_of_Three_Reports_Valid:Z
+     171: goto          180
+     174: aload_2
+     175: pop
+     176: iconst_1
+     177: putstatic     #24                 // Field Two_of_Three_Reports_Valid:Z
+     180: aload_2
+     181: pop
+     182: new           #43                 // class java/lang/StringBuilder
+     185: dup
+     186: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     189: aload_0
+     190: iconst_3
+     191: aaload
+     192: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     195: ldc           #46                 // String
+     197: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     200: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     203: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     206: putstatic     #17                 // Field Own_Tracked_Alt:I
+     209: aload_2
+     210: pop
+     211: new           #43                 // class java/lang/StringBuilder
+     214: dup
+     215: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     218: aload_0
+     219: iconst_4
+     220: aaload
+     221: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     224: ldc           #46                 // String
+     226: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     229: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     232: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     235: putstatic     #20                 // Field Own_Tracked_Alt_Rate:I
+     238: aload_2
+     239: pop
+     240: new           #43                 // class java/lang/StringBuilder
+     243: dup
+     244: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     247: aload_0
+     248: iconst_5
+     249: aaload
+     250: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     253: ldc           #46                 // String
+     255: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     258: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     261: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     264: putstatic     #18                 // Field Other_Tracked_Alt:I
+     267: aload_2
+     268: pop
+     269: new           #43                 // class java/lang/StringBuilder
+     272: dup
+     273: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     276: aload_0
+     277: bipush        6
+     279: aaload
+     280: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     283: ldc           #46                 // String
+     285: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     288: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     291: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     294: putstatic     #6                  // Field Alt_Layer_Value:I
+     297: aload_2
+     298: pop
+     299: new           #43                 // class java/lang/StringBuilder
+     302: dup
+     303: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     306: aload_0
+     307: bipush        7
+     309: aaload
+     310: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     313: ldc           #46                 // String
+     315: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     318: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     321: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     324: putstatic     #8                  // Field Up_Separation:I
+     327: aload_2
+     328: pop
+     329: new           #43                 // class java/lang/StringBuilder
+     332: dup
+     333: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     336: aload_0
+     337: bipush        8
+     339: aaload
+     340: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     343: ldc           #46                 // String
+     345: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     348: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     351: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     354: putstatic     #11                 // Field Down_Separation:I
+     357: aload_2
+     358: pop
+     359: new           #43                 // class java/lang/StringBuilder
+     362: dup
+     363: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     366: aload_0
+     367: bipush        9
+     369: aaload
+     370: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     373: ldc           #46                 // String
+     375: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     378: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     381: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     384: putstatic     #25                 // Field Other_RAC:I
+     387: aload_2
+     388: pop
+     389: new           #43                 // class java/lang/StringBuilder
+     392: dup
+     393: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     396: aload_0
+     397: bipush        10
+     399: aaload
+     400: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     403: ldc           #46                 // String
+     405: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     408: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     411: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     414: putstatic     #22                 // Field Other_Capability:I
+     417: aload_2
+     418: pop
+     419: new           #43                 // class java/lang/StringBuilder
+     422: dup
+     423: invokespecial #44                 // Method java/lang/StringBuilder."<init>":()V
+     426: aload_0
+     427: bipush        11
+     429: aaload
+     430: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     433: ldc           #46                 // String
+     435: invokevirtual #45                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     438: invokevirtual #47                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     441: invokestatic  #48                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+     444: putstatic     #7                  // Field Climb_Inhibit:I
+     447: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     450: aload_2
+     451: invokevirtual #49                 // Method alt_sep_test:()I
+     454: invokevirtual #50                 // Method java/io/PrintStream.println:(I)V
+     457: return
+
+  static {};
+    Code:
+       0: sipush        600
+       3: putstatic     #21                 // Field OLEV:I
+       6: sipush        600
+       9: putstatic     #51                 // Field MAXALTDIFF:I
+      12: sipush        650
+      15: putstatic     #16                 // Field MINSEP:I
+      18: bipush        100
+      20: putstatic     #9                  // Field NOZCROSS:I
+      23: iconst_0
+      24: putstatic     #26                 // Field NO_INTENT:I
+      27: iconst_1
+      28: putstatic     #52                 // Field DO_NOT_CLIMB:I
+      31: iconst_2
+      32: putstatic     #53                 // Field DO_NOT_DESCEND:I
+      35: iconst_1
+      36: putstatic     #23                 // Field TCAS_TA:I
+      39: iconst_2
+      40: putstatic     #54                 // Field OTHER:I
+      43: iconst_0
+      44: putstatic     #27                 // Field UNRESOLVED:I
+      47: iconst_1
+      48: putstatic     #30                 // Field UPWARD_RA:I
+      51: iconst_2
+      52: putstatic     #31                 // Field DOWNWARD_RA:I
+      55: return
+}

@@ -1,0 +1,125 @@
+Compiled from "TritypeV1.java"
+class TritypeV1 {
+  TritypeV1();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  static int caller(int, int, int);
+    Code:
+       0: iload_0
+       1: ifeq          12
+       4: iload_1
+       5: ifeq          12
+       8: iload_2
+       9: ifne          17
+      12: iconst_4
+      13: istore_3
+      14: goto          144
+      17: iconst_0
+      18: istore_3
+      19: iload_0
+      20: iload_1
+      21: if_icmpne     28
+      24: iload_3
+      25: iconst_1
+      26: iadd
+      27: istore_3
+      28: iload_0
+      29: iload_2
+      30: if_icmpne     37
+      33: iload_3
+      34: iconst_2
+      35: iadd
+      36: istore_3
+      37: iload_1
+      38: iload_2
+      39: if_icmpne     46
+      42: iload_3
+      43: iconst_3
+      44: iadd
+      45: istore_3
+      46: iload_3
+      47: ifne          81
+      50: iload_0
+      51: iload_1
+      52: iadd
+      53: iload_2
+      54: if_icmple     71
+      57: iload_1
+      58: iload_2
+      59: iadd
+      60: iload_0
+      61: if_icmple     71
+      64: iload_0
+      65: iload_2
+      66: iadd
+      67: iload_1
+      68: if_icmpgt     76
+      71: iconst_4
+      72: istore_3
+      73: goto          144
+      76: iconst_1
+      77: istore_3
+      78: goto          144
+      81: iload_3
+      82: iconst_3
+      83: if_icmple     91
+      86: iconst_3
+      87: istore_3
+      88: goto          144
+      91: iload_3
+      92: iconst_1
+      93: if_icmpne     108
+      96: iload_0
+      97: iload_1
+      98: iadd
+      99: iload_2
+     100: if_icmple     108
+     103: iconst_2
+     104: istore_3
+     105: goto          144
+     108: iload_3
+     109: iconst_2
+     110: if_icmpne     125
+     113: iload_0
+     114: iload_2
+     115: iadd
+     116: iload_1
+     117: if_icmple     125
+     120: iconst_1
+     121: istore_3
+     122: goto          144
+     125: iload_3
+     126: iconst_3
+     127: if_icmpne     142
+     130: iload_1
+     131: iload_2
+     132: iadd
+     133: iload_0
+     134: if_icmple     142
+     137: iconst_2
+     138: istore_3
+     139: goto          144
+     142: iconst_4
+     143: istore_3
+     144: iload_3
+     145: ireturn
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #2                  // class TritypeV1
+       3: dup
+       4: invokespecial #3                  // Method "<init>":()V
+       7: astore_1
+       8: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      11: aload_1
+      12: pop
+      13: iconst_2
+      14: iconst_3
+      15: iconst_2
+      16: invokestatic  #5                  // Method caller:(III)I
+      19: invokevirtual #6                  // Method java/io/PrintStream.println:(I)V
+      22: return
+}

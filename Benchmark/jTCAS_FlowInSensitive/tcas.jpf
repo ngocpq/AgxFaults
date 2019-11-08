@@ -1,0 +1,28 @@
+@include=./jpf-ffl.jpf
+
+target=RunTCAS
+#concolic.method=tcas_agx
+concolic.method=tcas_symb
+
+concolic.method.tcas_agx=RunTCAS.runtcas_agx()
+concolic.method.tcas_agx.config=tcas
+
+concolic.method.tcas_symb=RunTCAS.runtcas(Cur_Vertical_Sep:int,High_Confidence:boolean,Two_of_Three_Reports_Valid:boolean,Own_Tracked_Alt:int,Own_Tracked_Alt_Rate:int,Other_Tracked_Alt:int,Alt_Layer_Value:int,Up_Separation:int,Down_Separation:int,Other_RAC:int,Other_Capability:int,Climb_Inhibit:int)
+concolic.method.tcas_symb.config=tcas
+
+#fault localization config
+jdart.configs.tcas.faultlocalization.enabled=true
+jdart.configs.tcas.faultlocalization.angelicLocation=tcas.*
+#NONE, SINGLE_PATH, ANGELIC
+jdart.configs.tcas.faultlocalization.formulatype=ANGELIC
+jdart.configs.tcas.exploration.initial = true
+
+debug.formula=false
+#debug.controlflowgraph=false
+
+log.level=INFO
+log.output=err
+
+
+#UnsatCoreDriven, McsDriven, ProgramFormula, LocFaults, OnDemand,IncAngelic, FlowInSensitive, FlowSensitive
+ffl.faultlocalizator=FlowInSensitive

@@ -1,0 +1,5 @@
+@include=../../test_Maxmin6varKO4.jpf
+experiment.id=t24
+target.args=839156038;-1610612735;-536838011;-805306300;-1577032637;536870912
+jdart.log.output=./log/log_${experiment.versionid}_${experiment.id}.txt
+ffl.report.filepath=./result/result_${experiment.versionid}_${experiment.id}.txt

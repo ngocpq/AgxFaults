@@ -1,0 +1,4 @@
+@include=./BSearchKO_V1_t1.jpf
+
+#UnsatCoreDriven, McsDriven, ProgramFormula, LocFaults, OnDemand,IncAngelic
+ffl.faultlocalizator=ProgramFormula

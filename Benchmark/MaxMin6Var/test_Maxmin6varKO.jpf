@@ -1,0 +1,7 @@
+para_version=KO
+@include=./MaxMin6Var.jpf
+
+target=Maxmin6var${para_version}
+concolic.method.maxmin=Maxmin6var${para_version}.maxmin(a:int,b:int,c:int,d:int,e:int,f:int)
+experiment.faultylines={32}
+#experiment.versionid=MaxMin6Var${para_version}

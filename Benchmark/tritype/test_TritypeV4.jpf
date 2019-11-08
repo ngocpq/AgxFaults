@@ -1,0 +1,4 @@
+para_version=V4
+@include=./Tritype.jpf
+
+experiment.faultylines={48}
