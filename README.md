@@ -8,6 +8,7 @@ The repository is organized as follows:
 	* [Benchmark](./Benchmark/): Benchmarked programs and configuration files.
 
 Dependencies:
+----------
 	* [Java Path Finder](https://github.com/javapathfinder/jpf-core)
 	* [jConstraint library](https://github.com/psycopaths/jconstraints)
 	* [j3Constrant-Z3](https://github.com/psycopaths/jconstraints-z3)
