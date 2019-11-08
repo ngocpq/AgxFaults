@@ -5,7 +5,7 @@ The repository is organized as follows:
 ----------
   * [SourceCode](./SourceCode/): contains the source code of AgxFaults and its dependent libraries.
   * [Release](./Release/): Executable Jar files
-	* [Benchmark](./Benchmark/): Benchmarked programs and configuration files.
+  * [Benchmark](./Benchmark/): Benchmarked programs and configuration files.
 
 Dependencies:
 ----------
