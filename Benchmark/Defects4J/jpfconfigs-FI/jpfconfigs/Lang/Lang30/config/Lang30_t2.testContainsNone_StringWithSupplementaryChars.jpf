@@ -1,0 +1,7 @@
+testid=Lang30_t2.testContainsNone_StringWithSupplementaryChars
+testclass=org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+testmethod=testContainsNone_StringWithSupplementaryChars
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang30.jpf

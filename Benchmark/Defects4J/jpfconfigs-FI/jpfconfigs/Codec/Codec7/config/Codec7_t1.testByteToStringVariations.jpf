@@ -1,0 +1,7 @@
+testid=Codec7_t1.testByteToStringVariations
+testclass=org.apache.commons.codec.binary.Base64Test
+testmethod=testByteToStringVariations
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec7.jpf

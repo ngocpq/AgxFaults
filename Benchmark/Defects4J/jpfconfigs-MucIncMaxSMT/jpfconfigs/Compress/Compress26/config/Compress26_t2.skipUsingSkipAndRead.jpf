@@ -1,0 +1,7 @@
+testid=Compress26_t2.skipUsingSkipAndRead
+testclass=org.apache.commons.compress.utils.IOUtilsTest
+testmethod=skipUsingSkipAndRead
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress26.jpf

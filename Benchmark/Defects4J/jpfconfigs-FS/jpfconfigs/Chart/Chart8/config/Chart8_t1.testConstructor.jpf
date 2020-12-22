@@ -1,0 +1,7 @@
+testid=Chart8_t1.testConstructor
+testclass=org.jfree.data.time.junit.WeekTests
+testmethod=testConstructor
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart8.jpf

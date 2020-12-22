@@ -1,0 +1,7 @@
+testid=Mockito1_t12.shouldVerifyBooleanVarargs
+testclass=org.mockitousage.basicapi.UsingVarargsTest
+testmethod=shouldVerifyBooleanVarargs
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

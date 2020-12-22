@@ -1,0 +1,7 @@
+testid=Math55_t1.testCrossProductCancellation
+testclass=org.apache.commons.math.geometry.Vector3DTest
+testmethod=testCrossProductCancellation
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math55.jpf

@@ -1,0 +1,7 @@
+testid=Mockito25_t3.can_create_mock_from_return_types_declared_with_a_bounded_wildcard
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest
+testmethod=can_create_mock_from_return_types_declared_with_a_bounded_wildcard
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito25.jpf

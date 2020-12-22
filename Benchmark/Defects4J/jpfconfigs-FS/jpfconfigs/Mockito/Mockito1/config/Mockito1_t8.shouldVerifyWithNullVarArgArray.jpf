@@ -1,0 +1,7 @@
+testid=Mockito1_t8.shouldVerifyWithNullVarArgArray
+testclass=org.mockitousage.basicapi.UsingVarargsTest
+testmethod=shouldVerifyWithNullVarArgArray
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

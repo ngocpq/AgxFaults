@@ -1,0 +1,7 @@
+testid=Mockito30_t1.shouldPrintTheParametersOnSmartNullPointerExceptionMessage
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest
+testmethod=shouldPrintTheParametersOnSmartNullPointerExceptionMessage
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito30.jpf

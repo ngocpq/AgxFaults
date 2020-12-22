@@ -1,0 +1,18 @@
+mcs_1	2
+    org/apache/commons/lang3/StringUtils.java:1681:[1681_45_if_icmpge]	# for (int j = 0; j < searchLen; j++) {
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+mcs_2	2
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_1_ifnull]	# if (cs == null || searchChars == null) {
+mcs_3	2
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_1_ifnull]	# if (cs == null || searchChars == null) {
+    org/apache/commons/lang3/StringUtils.java:1718:[1718_18_ireturn_ssa]	# return containsNone(cs, invalidChars.toCharArray());
+mcs_4	2
+    org/apache/commons/lang3/StringUtils.java:1715:[1715_1_ifnull]	# if (cs == null || invalidChars == null) {
+    org/apache/commons/lang3/StringUtils.java:1718:[1718_18_ireturn_ssa]	# return containsNone(cs, invalidChars.toCharArray());
+mcs_5	2
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1715:[1715_1_ifnull]	# if (cs == null || invalidChars == null) {
+mcs_6	2
+    org/apache/commons/lang3/StringUtils.java:1677:[1677_16_istore_2]	# int csLen = cs.length();
+    org/apache/commons/lang3/StringUtils.java:1715:[1715_1_ifnull]	# if (cs == null || invalidChars == null) {

@@ -1,0 +1,7 @@
+testid=Math31_t1.testMath718
+testclass=org.apache.commons.math3.distribution.BinomialDistributionTest
+testmethod=testMath718
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math31.jpf

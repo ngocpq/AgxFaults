@@ -1,0 +1,7 @@
+testid=Math86_t2.testNotPositiveDefinite
+testclass=org.apache.commons.math.linear.CholeskyDecompositionImplTest
+testmethod=testNotPositiveDefinite
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math86.jpf

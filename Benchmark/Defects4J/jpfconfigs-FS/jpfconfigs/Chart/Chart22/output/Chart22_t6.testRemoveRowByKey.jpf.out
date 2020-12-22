@@ -1,0 +1,16 @@
+mcs_1	1
+    org/jfree/data/KeyedObjects2D.java:270:[270_42_iflt]	# if (rowIndex >= 0) {
+mcs_2	1
+    org/jfree/data/KeyedObjects2D.java:269:[269_38_istore]	# int rowIndex = this.rowKeys.indexOf(rowKey);
+mcs_3	1
+    org/jfree/data/KeyedObjects2D.java:150:[150_10_ireturn_ssa]	# return this.rowKeys.indexOf(key);
+mcs_4	1
+    org/jfree/data/KeyedObjects2D.java:344:[344_5_istore_2]	# int index = getRowIndex(rowKey);
+MaxSAT_TotalTime 	195
+MaxSAT_MaxTime 	40
+MaxSAT_AvgTime 	21.666666666666668
+MaxSAT_Count 	9
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

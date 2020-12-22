@@ -1,0 +1,7 @@
+testid=Mockito20_t4.exception_message_when_constructor_not_found
+testclass=org.mockitousage.constructor.CreatingMocksWithConstructorTest
+testmethod=exception_message_when_constructor_not_found
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

@@ -1,0 +1,7 @@
+testid=Mockito20_t8.can_mock_abstract_classes
+testclass=org.mockitousage.constructor.CreatingMocksWithConstructorTest
+testmethod=can_mock_abstract_classes
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

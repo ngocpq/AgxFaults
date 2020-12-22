@@ -1,0 +1,7 @@
+testid=Math24_t1.testMath855
+testclass=org.apache.commons.math3.optimization.univariate.BrentOptimizerTest
+testmethod=testMath855
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math24.jpf

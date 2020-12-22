@@ -1,0 +1,7 @@
+testid=Chart13_t1.testSizingWithWidthConstraint
+testclass=org.jfree.chart.block.junit.BorderArrangementTests
+testmethod=testSizingWithWidthConstraint
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart13.jpf

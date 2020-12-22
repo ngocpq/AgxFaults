@@ -1,0 +1,7 @@
+testid=Mockito6_t1.shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+testclass=org.mockitousage.matchers.AnyXMatchersAcceptNullsTest
+testmethod=shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito6.jpf

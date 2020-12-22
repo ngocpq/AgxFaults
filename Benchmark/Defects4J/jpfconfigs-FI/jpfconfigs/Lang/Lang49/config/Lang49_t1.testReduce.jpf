@@ -1,0 +1,7 @@
+testid=Lang49_t1.testReduce
+testclass=org.apache.commons.lang.math.FractionTest
+testmethod=testReduce
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang49.jpf

@@ -1,0 +1,27 @@
+Exception in thread "main" ---------------------- JPF error stack trace ---------------------
+gov.nasa.jpf.JPFListenerException: exception during methodExited() notification
+	at gov.nasa.jpf.vm.VM.notifyMethodExited(VM.java:1167)
+	at gov.nasa.jpf.vm.ThreadInfo.leave(ThreadInfo.java:2241)
+	at gov.nasa.jpf.vm.ThreadInfo.unwindTo(ThreadInfo.java:3093)
+	at gov.nasa.jpf.vm.ThreadInfo.throwException(ThreadInfo.java:2893)
+	at gov.nasa.jpf.vm.ThreadInfo.createAndThrowException(ThreadInfo.java:1789)
+	at gov.nasa.jpf.vm.ThreadInfo.createAndThrowException(ThreadInfo.java:1813)
+	at gov.nasa.jpf.jvm.bytecode.VirtualInvocation.execute(VirtualInvocation.java:91)
+	at gov.nasa.jpf.vm.ThreadInfo.executeInstruction(ThreadInfo.java:1908)
+	at gov.nasa.jpf.vm.ThreadInfo.executeTransition(ThreadInfo.java:1859)
+	at gov.nasa.jpf.vm.SystemState.executeNextTransition(SystemState.java:765)
+	at gov.nasa.jpf.vm.VM.forward(VM.java:1722)
+	at gov.nasa.jpf.search.Search.forward(Search.java:579)
+	at gov.nasa.jpf.search.DFSearch.search(DFSearch.java:79)
+	at gov.nasa.jpf.JPF.run(JPF.java:613)
+	at gov.nasa.jpf.jfaults.JDart.run(JDart.java:201)
+	at gov.nasa.jpf.jfaults.JDart.start(JDart.java:125)
+	at gov.nasa.jpf.tool.RunJPF.main(RunJPF.java:108)
+Caused by: java.lang.IllegalStateException: Code supposed to be unreachable
+	at gov.nasa.jpf.jcfg.exception.ContractUtils.unreachable(ContractUtils.java:8)
+	at gov.nasa.jpf.jfaults.constraints.InternalConstraintsTree.getOrAddExecutingTraceItem(InternalConstraintsTree.java:1301)
+	at gov.nasa.jpf.jfaults.constraints.InternalConstraintsTree.finish(InternalConstraintsTree.java:2198)
+	at gov.nasa.jpf.jfaults.ConcolicMethodExplorer.completePathError(ConcolicMethodExplorer.java:422)
+	at gov.nasa.jpf.jfaults.ConcolicListener.methodExited(ConcolicListener.java:114)
+	at gov.nasa.jpf.vm.VM.notifyMethodExited(VM.java:1160)
+	... 16 more

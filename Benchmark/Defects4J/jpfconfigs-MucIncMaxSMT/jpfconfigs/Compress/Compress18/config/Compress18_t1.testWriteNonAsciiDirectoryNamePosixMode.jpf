@@ -1,0 +1,7 @@
+testid=Compress18_t1.testWriteNonAsciiDirectoryNamePosixMode
+testclass=org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest
+testmethod=testWriteNonAsciiDirectoryNamePosixMode
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress18.jpf

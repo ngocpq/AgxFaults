@@ -1,0 +1,7 @@
+testid=Mockito37_t1.shouldFailWhenCallingRealMethodOnIterface
+testclass=org.mockito.internal.stubbing.answers.AnswersValidatorTest
+testmethod=shouldFailWhenCallingRealMethodOnIterface
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito37.jpf

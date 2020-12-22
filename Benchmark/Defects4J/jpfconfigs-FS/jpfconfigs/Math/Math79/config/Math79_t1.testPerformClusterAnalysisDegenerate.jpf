@@ -1,0 +1,7 @@
+testid=Math79_t1.testPerformClusterAnalysisDegenerate
+testclass=org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest
+testmethod=testPerformClusterAnalysisDegenerate
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math79.jpf

@@ -1,0 +1,147 @@
+mcs_1	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_2	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+mcs_3	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_67_iinc_ssa]	# final char c2 = substring.charAt(index2++);
+mcs_4	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:55:[55_37_istore]	# int index2 = start;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_5	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_6	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_62_istore]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_7	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_8	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_54_iinc_ssa]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_9	2
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_10	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_11	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_12	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_62_istore]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+mcs_13	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+mcs_14	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+mcs_15	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+mcs_16	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+mcs_17	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_54_iinc_ssa]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+mcs_18	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_62_istore]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+mcs_19	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_62_istore]	# final char c1 = cs.charAt(index1++);
+mcs_20	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_54_iinc_ssa]	# final char c1 = cs.charAt(index1++);
+mcs_21	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_22	1
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_23	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:55:[55_37_istore]	# int index2 = start;
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_12_ifnonnull]	# if (cs1 == null || cs2 == null) {
+mcs_24	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:55:[55_37_istore]	# int index2 = start;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_25	1
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_12_ifnonnull]	# if (cs1 == null || cs2 == null) {
+mcs_26	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:55:[55_37_istore]	# int index2 = start;
+mcs_27	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+mcs_28	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_67_iinc_ssa]	# final char c2 = substring.charAt(index2++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+mcs_29	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_67_iinc_ssa]	# final char c2 = substring.charAt(index2++);
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_30	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_31	2
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_32	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_33	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_34	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_35	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_36	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_75_istore]	# final char c2 = substring.charAt(index2++);
+mcs_37	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:60:[60_67_iinc_ssa]	# final char c2 = substring.charAt(index2++);
+mcs_38	3
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_39	3
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_40	3
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_41	3
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+    org/apache/commons/codec/binary/StringUtils.java:81:[81_60_ireturn_ssa]	# return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+mcs_42	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/StringUtils.java:81:[81_60_ireturn_ssa]	# return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+mcs_43	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+    org/apache/commons/codec/binary/StringUtils.java:81:[81_60_ireturn_ssa]	# return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+mcs_44	2
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_28_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+mcs_45	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_48_ifle]	# while (tmpLen-- > 0) {
+mcs_46	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:58:[58_45_iinc_ssa]	# while (tmpLen-- > 0) {
+mcs_47	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:77:[77_125_ireturn_ssa]	# return true;
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+mcs_48	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+    org/apache/commons/codec/binary/StringUtils.java:81:[81_60_ireturn_ssa]	# return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+MaxSAT_TotalTime 	2938
+MaxSAT_MaxTime 	164
+MaxSAT_AvgTime 	26.0
+MaxSAT_Count 	113
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

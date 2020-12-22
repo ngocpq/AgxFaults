@@ -1,0 +1,7 @@
+testid=Chart11_t1.testEqualGeneralPaths
+testclass=org.jfree.chart.util.junit.ShapeUtilitiesTests
+testmethod=testEqualGeneralPaths
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart11.jpf

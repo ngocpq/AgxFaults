@@ -1,0 +1,8 @@
+mcs_1	1
+    org/apache/commons/lang/math/NumberUtils.java:452:[452_354_ifeq]	# if (dec == null
+mcs_2	1
+    org/apache/commons/lang/math/NumberUtils.java:398:[398_1_ifnonnull]	# if (str == null) {
+mcs_3	1
+    org/apache/commons/lang/math/NumberUtils.java:414:[414_67_istore_1]	# char lastChar = str.charAt(str.length() - 1);
+mcs_4	1
+    org/apache/commons/lang/math/NumberUtils.java:404:[404_29_ifeq]	# if (str.startsWith("--")) {

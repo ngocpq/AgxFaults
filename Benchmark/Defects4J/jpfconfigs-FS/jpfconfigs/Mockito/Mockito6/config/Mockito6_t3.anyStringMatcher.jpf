@@ -1,0 +1,7 @@
+testid=Mockito6_t3.anyStringMatcher
+testclass=org.mockitousage.matchers.MatchersTest
+testmethod=anyStringMatcher
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito6.jpf

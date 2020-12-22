@@ -1,0 +1,16 @@
+mcs_1	1
+    org/jfree/data/KeyedObjects.java:267:[267_7_ifge]	# if (index < 0) {
+mcs_2	1
+    org/jfree/data/KeyedObjects.java:266:[266_5_istore_2]	# int index = getIndex(key);
+mcs_3	1
+    org/jfree/data/KeyedObjects2D.java:376:[376_58_ifeq]	# while (iterator.hasNext()) {
+mcs_4	1
+    org/jfree/data/KeyedObjects.java:140:[140_67_ireturn_ssa]	# return -1;
+MaxSAT_TotalTime 	119
+MaxSAT_MaxTime 	38
+MaxSAT_AvgTime 	13.222222222222221
+MaxSAT_Count 	9
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

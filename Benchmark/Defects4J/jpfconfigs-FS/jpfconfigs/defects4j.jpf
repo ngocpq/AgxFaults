@@ -1,0 +1,4 @@
++classpath=${sut_root_dir}/${dir_bin_classes};${sut_root_dir}/${dir_bin_tests};${cp_compile};${cp_test};
++sourcepath=${dir_src_classes};${sut_src_tests};
+
+@include=./config_junit.jpf

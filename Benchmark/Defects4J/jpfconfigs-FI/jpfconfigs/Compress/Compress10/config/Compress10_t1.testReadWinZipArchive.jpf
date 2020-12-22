@@ -1,0 +1,7 @@
+testid=Compress10_t1.testReadWinZipArchive
+testclass=org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+testmethod=testReadWinZipArchive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress10.jpf

@@ -1,0 +1,7 @@
+testid=Mockito3_t5.captures_correctly_when_captor_used_multiple_times
+testclass=org.mockitousage.matchers.CapturingArgumentsTest
+testmethod=captures_correctly_when_captor_used_multiple_times
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito3.jpf

@@ -1,0 +1,7 @@
+testid=Compress22_t1.testPartialReadTruncatedData
+testclass=org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test
+testmethod=testPartialReadTruncatedData
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress22.jpf

@@ -1,0 +1,7 @@
+testid=Mockito1_t23.test_stub_only_not_verifiable
+testclass=org.mockitousage.stubbing.BasicStubbingTest
+testmethod=test_stub_only_not_verifiable
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

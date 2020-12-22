@@ -1,0 +1,14 @@
+mcs_1	1
+    org/jfree/data/KeyedObjects2D.java:99:[99_9_ireturn_ssa]	# return this.columnKeys.size();
+mcs_2	1
+    org/jfree/data/KeyedObjects2D.java:279:[279_113_istore]	# int columnIndex = this.columnKeys.indexOf(columnKey);
+mcs_3	1
+    org/jfree/data/KeyedObjects2D.java:280:[280_117_ifge]	# if (columnIndex < 0) {
+MaxSAT_TotalTime 	183
+MaxSAT_MaxTime 	81
+MaxSAT_AvgTime 	22.875
+MaxSAT_Count 	8
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

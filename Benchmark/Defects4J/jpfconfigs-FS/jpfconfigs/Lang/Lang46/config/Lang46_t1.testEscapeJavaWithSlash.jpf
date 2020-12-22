@@ -1,0 +1,7 @@
+testid=Lang46_t1.testEscapeJavaWithSlash
+testclass=org.apache.commons.lang.StringEscapeUtilsTest
+testmethod=testEscapeJavaWithSlash
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang46.jpf

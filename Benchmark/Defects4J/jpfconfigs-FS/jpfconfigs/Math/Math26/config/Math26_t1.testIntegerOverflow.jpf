@@ -1,0 +1,7 @@
+testid=Math26_t1.testIntegerOverflow
+testclass=org.apache.commons.math3.fraction.FractionTest
+testmethod=testIntegerOverflow
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math26.jpf

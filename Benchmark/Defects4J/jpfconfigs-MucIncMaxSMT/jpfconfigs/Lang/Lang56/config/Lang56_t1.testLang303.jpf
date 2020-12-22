@@ -1,0 +1,7 @@
+testid=Lang56_t1.testLang303
+testclass=org.apache.commons.lang.time.FastDateFormatTest
+testmethod=testLang303
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang56.jpf

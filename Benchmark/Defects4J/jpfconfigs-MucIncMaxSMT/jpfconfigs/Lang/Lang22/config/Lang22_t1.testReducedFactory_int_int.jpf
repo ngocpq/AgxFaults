@@ -1,0 +1,7 @@
+testid=Lang22_t1.testReducedFactory_int_int
+testclass=org.apache.commons.lang3.math.FractionTest
+testmethod=testReducedFactory_int_int
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang22.jpf

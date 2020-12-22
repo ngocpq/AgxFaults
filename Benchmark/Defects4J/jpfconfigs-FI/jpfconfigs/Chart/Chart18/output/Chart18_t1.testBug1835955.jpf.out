@@ -1,0 +1,14 @@
+mcs_1	1
+    org/jfree/data/DefaultKeyedValues.java:157:[157_36_ireturn_ssa]	# return i.intValue();
+mcs_2	1
+    org/jfree/data/DefaultKeyedValues.java:232:[232_19_istore_3]	# int keyIndex = getIndex(key);
+mcs_3	1
+    org/jfree/data/DefaultKeyedValues.java:233:[233_21_iflt]	# if (keyIndex >= 0) {
+MaxSAT_TotalTime 	139
+MaxSAT_MaxTime 	53
+MaxSAT_AvgTime 	17.375
+MaxSAT_Count 	8
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

@@ -1,0 +1,20 @@
+mcs_1	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_2	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_3	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+mcs_4	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:104:[104_5_istore]	# int     end = offset + length;
+mcs_5	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:105:[105_8_istore]	# int     start = offset;
+mcs_6	1
+    org/apache/commons/compress/archivers/tar/TarUtils.java:111:[111_51_ifne]	# if (buffer[start] == 0) {
+MaxSAT_TotalTime 	179
+MaxSAT_MaxTime 	50
+MaxSAT_AvgTime 	16.272727272727273
+MaxSAT_Count 	11
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

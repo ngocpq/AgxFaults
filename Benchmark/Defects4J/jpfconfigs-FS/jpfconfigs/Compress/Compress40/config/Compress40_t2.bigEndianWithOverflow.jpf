@@ -1,0 +1,7 @@
+testid=Compress40_t2.bigEndianWithOverflow
+testclass=org.apache.commons.compress.utils.BitInputStreamTest
+testmethod=bigEndianWithOverflow
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress40.jpf

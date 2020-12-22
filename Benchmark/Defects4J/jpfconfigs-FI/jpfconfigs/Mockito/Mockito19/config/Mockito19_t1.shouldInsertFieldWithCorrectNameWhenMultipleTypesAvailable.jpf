@@ -1,0 +1,7 @@
+testid=Mockito19_t1.shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+testclass=org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest
+testmethod=shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito19.jpf

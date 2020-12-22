@@ -1,0 +1,7 @@
+testid=Math85_t1.testMath280
+testclass=org.apache.commons.math.distribution.NormalDistributionTest
+testmethod=testMath280
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math85.jpf

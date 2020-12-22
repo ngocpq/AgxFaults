@@ -1,0 +1,7 @@
+testid=Mockito36_t1.shouldScreamWhenCallingRealMethodOnInterface
+testclass=org.mockito.internal.invocation.InvocationTest
+testmethod=shouldScreamWhenCallingRealMethodOnInterface
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito36.jpf

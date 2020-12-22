@@ -1,0 +1,7 @@
+testid=Lang47_t2.testLang412Right
+testclass=org.apache.commons.lang.text.StrBuilderTest
+testmethod=testLang412Right
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang47.jpf

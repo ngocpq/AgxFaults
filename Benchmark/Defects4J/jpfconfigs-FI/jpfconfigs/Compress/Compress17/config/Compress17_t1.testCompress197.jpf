@@ -1,0 +1,7 @@
+testid=Compress17_t1.testCompress197
+testclass=org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+testmethod=testCompress197
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress17.jpf

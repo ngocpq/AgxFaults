@@ -1,0 +1,7 @@
+testid=Lang50_t1.test_changeDefault_Locale_DateInstance
+testclass=org.apache.commons.lang.time.FastDateFormatTest
+testmethod=test_changeDefault_Locale_DateInstance
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang50.jpf

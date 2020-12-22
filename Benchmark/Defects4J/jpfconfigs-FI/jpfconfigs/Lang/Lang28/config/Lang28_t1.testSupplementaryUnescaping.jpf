@@ -1,0 +1,7 @@
+testid=Lang28_t1.testSupplementaryUnescaping
+testclass=org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+testmethod=testSupplementaryUnescaping
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang28.jpf

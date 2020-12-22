@@ -1,0 +1,7 @@
+testid=Codec11_t5.testTrailingSpecial
+testclass=org.apache.commons.codec.net.QuotedPrintableCodecTest
+testmethod=testTrailingSpecial
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec11.jpf

@@ -1,0 +1,7 @@
+testid=Compress24_t1.testParseOctal
+testclass=org.apache.commons.compress.archivers.tar.TarUtilsTest
+testmethod=testParseOctal
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress24.jpf

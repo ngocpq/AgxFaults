@@ -1,0 +1,7 @@
+testid=Compress4_t4.testCP437FileRoundtripExplicitUnicodeExtra
+testclass=org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+testmethod=testCP437FileRoundtripExplicitUnicodeExtra
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress4.jpf

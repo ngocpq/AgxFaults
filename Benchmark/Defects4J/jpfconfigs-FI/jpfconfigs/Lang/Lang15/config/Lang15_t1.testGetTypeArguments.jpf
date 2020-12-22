@@ -1,0 +1,7 @@
+testid=Lang15_t1.testGetTypeArguments
+testclass=org.apache.commons.lang3.reflect.TypeUtilsTest
+testmethod=testGetTypeArguments
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang15.jpf

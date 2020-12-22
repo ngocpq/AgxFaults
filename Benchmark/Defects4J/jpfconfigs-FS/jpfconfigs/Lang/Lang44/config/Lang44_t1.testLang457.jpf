@@ -1,0 +1,7 @@
+testid=Lang44_t1.testLang457
+testclass=org.apache.commons.lang.NumberUtilsTest
+testmethod=testLang457
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang44.jpf

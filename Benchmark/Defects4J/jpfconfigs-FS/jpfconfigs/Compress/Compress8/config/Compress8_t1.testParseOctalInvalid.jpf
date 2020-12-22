@@ -1,0 +1,7 @@
+testid=Compress8_t1.testParseOctalInvalid
+testclass=org.apache.commons.compress.archivers.tar.TarUtilsTest
+testmethod=testParseOctalInvalid
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress8.jpf

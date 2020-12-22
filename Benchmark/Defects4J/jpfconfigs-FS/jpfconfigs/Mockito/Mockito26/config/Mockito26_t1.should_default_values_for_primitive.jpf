@@ -1,0 +1,7 @@
+testid=Mockito26_t1.should_default_values_for_primitive
+testclass=org.mockito.internal.progress.HandyReturnValuesTest
+testmethod=should_default_values_for_primitive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito26.jpf

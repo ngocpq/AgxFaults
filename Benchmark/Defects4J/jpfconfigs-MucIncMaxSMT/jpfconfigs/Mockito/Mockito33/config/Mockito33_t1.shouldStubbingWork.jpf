@@ -1,0 +1,7 @@
+testid=Mockito33_t1.shouldStubbingWork
+testclass=org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest
+testmethod=shouldStubbingWork
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito33.jpf

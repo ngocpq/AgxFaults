@@ -1,0 +1,36 @@
+mcs_1	1
+    org/jfree/data/DefaultKeyedValues2D.java:106:[106_34_putfield_ssa]	# this.rows = new java.util.ArrayList();
+mcs_2	1
+    org/jfree/data/DefaultKeyedValues2D.java:107:[107_39_putfield_ssa]	# this.sortRowKeys = sortRowKeys;
+mcs_3	1
+    org/jfree/data/DefaultKeyedValues.java:334:[334_7_ifge]	# if (index < 0) {
+mcs_4	1
+    org/jfree/data/DefaultKeyedValues.java:157:[157_36_ireturn_ssa]	# return i.intValue();
+mcs_5	1
+    org/jfree/data/DefaultKeyedValues.java:333:[333_5_istore_2]	# int index = getIndex(key);
+mcs_6	1
+    org/jfree/data/DefaultKeyedValues2D.java:327:[327_44_ifeq]	# if (this.sortRowKeys) {
+mcs_7	1
+    org/jfree/data/DefaultKeyedValues2D.java:322:[322_9_iflt]	# if (rowIndex >= 0) {
+mcs_8	1
+    org/jfree/data/DefaultKeyedValues2D.java:320:[320_5_istore]	# int rowIndex = getRowIndex(rowKey);
+mcs_9	1
+    org/jfree/data/DefaultKeyedValues2D.java:189:[189_40_ireturn_ssa]	# return this.rowKeys.indexOf(key);
+mcs_10	1
+    org/jfree/data/DefaultKeyedValues2D.java:185:[185_18_ifeq]	# if (this.sortRowKeys) {
+mcs_11	1
+    org/jfree/data/DefaultKeyedValues.java:233:[233_21_iflt]	# if (keyIndex >= 0) {
+mcs_12	1
+    org/jfree/data/DefaultKeyedValues2D.java:456:[456_16_ifeq]	# while (iterator.hasNext()) {
+mcs_13	1
+    org/jfree/data/DefaultKeyedValues.java:155:[155_31_ireturn_ssa]	# return -1;  // key not found
+mcs_14	1
+    org/jfree/data/DefaultKeyedValues.java:232:[232_19_istore_3]	# int keyIndex = getIndex(key);
+MaxSAT_TotalTime 	546
+MaxSAT_MaxTime 	125
+MaxSAT_AvgTime 	28.736842105263158
+MaxSAT_Count 	19
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

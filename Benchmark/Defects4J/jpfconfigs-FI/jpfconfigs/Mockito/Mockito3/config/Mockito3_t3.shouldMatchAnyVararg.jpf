@@ -1,0 +1,7 @@
+testid=Mockito3_t3.shouldMatchAnyVararg
+testclass=org.mockitousage.bugs.varargs.VarargsNotPlayingWithAnyObjectTest
+testmethod=shouldMatchAnyVararg
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito3.jpf

@@ -1,0 +1,77 @@
+mcs_1	2
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_2	2
+    org/apache/commons/lang3/StringUtils.java:1415:[1415_24_ireturn_ssa]	# return indexOfAny(cs, searchChars.toCharArray());
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_3	2
+    org/apache/commons/lang3/StringUtils.java:1415:[1415_24_ireturn_ssa]	# return indexOfAny(cs, searchChars.toCharArray());
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+mcs_4	2
+    org/apache/commons/lang3/StringUtils.java:1378:[1378_43_istore]	# char ch = cs.charAt(i);
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+mcs_5	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_6	2
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_32_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_7	2
+    org/apache/commons/lang3/StringUtils.java:1412:[1412_11_ifeq]	# if (isEmpty(cs) || isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_8	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_6_ifne]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_9	2
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_10	1
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_11	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_12	2
+    org/apache/commons/lang3/StringUtils.java:1382:[1382_65_ireturn_ssa]	# return i;
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+mcs_13	2
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_32_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_14	2
+    org/apache/commons/lang3/StringUtils.java:1375:[1375_22_istore_2]	# int csLen = cs.length();
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_15	2
+    org/apache/commons/lang3/StringUtils.java:1412:[1412_11_ifeq]	# if (isEmpty(cs) || isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_16	2
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_11_ifeq]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_17	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_6_ifne]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_18	2
+    org/apache/commons/lang3/StringUtils.java:1412:[1412_4_ifne]	# if (isEmpty(cs) || isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_19	2
+    org/apache/commons/lang3/StringUtils.java:1415:[1415_24_ireturn_ssa]	# return indexOfAny(cs, searchChars.toCharArray());
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_20	2
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_21	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_10_ifne]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_22	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_23	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_18_ireturn_ssa]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_24	2
+    org/apache/commons/lang3/StringUtils.java:1376:[1376_25_istore_3]	# int searchLen = searchChars.length;
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_25	2
+    org/apache/commons/lang3/StringUtils.java:1378:[1378_43_istore]	# char ch = cs.charAt(i);
+    org/apache/commons/lang3/StringUtils.java:1375:[1375_22_istore_2]	# int csLen = cs.length();
+mcs_26	2
+    org/apache/commons/lang3/StringUtils.java:1382:[1382_65_ireturn_ssa]	# return i;
+    org/apache/commons/lang3/StringUtils.java:1375:[1375_22_istore_2]	# int csLen = cs.length();

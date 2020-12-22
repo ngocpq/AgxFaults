@@ -1,0 +1,7 @@
+testid=Mockito18_t1.should_return_empty_iterable
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest
+testmethod=should_return_empty_iterable
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito18.jpf

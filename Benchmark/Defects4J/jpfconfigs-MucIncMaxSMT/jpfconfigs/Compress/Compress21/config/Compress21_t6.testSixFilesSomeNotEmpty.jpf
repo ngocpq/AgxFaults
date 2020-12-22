@@ -1,0 +1,7 @@
+testid=Compress21_t6.testSixFilesSomeNotEmpty
+testclass=org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest
+testmethod=testSixFilesSomeNotEmpty
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress21.jpf

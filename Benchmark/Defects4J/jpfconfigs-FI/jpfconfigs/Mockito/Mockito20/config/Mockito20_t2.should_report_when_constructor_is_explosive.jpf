@@ -1,0 +1,7 @@
+testid=Mockito20_t2.should_report_when_constructor_is_explosive
+testclass=org.mockitousage.annotation.SpyAnnotationTest
+testmethod=should_report_when_constructor_is_explosive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

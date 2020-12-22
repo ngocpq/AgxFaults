@@ -1,0 +1,7 @@
+testid=Mockito15_t1.shouldInjectUsingPropertySetterIfAvailable
+testclass=org.mockitousage.bugs.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest
+testmethod=shouldInjectUsingPropertySetterIfAvailable
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito15.jpf

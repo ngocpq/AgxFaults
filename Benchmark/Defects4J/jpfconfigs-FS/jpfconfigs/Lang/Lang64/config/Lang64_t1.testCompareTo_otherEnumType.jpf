@@ -1,0 +1,7 @@
+testid=Lang64_t1.testCompareTo_otherEnumType
+testclass=org.apache.commons.lang.enums.ValuedEnumTest
+testmethod=testCompareTo_otherEnumType
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang64.jpf

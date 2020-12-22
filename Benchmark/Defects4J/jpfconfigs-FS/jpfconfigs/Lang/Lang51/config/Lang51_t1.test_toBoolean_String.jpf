@@ -1,0 +1,7 @@
+testid=Lang51_t1.test_toBoolean_String
+testclass=org.apache.commons.lang.BooleanUtilsTest
+testmethod=test_toBoolean_String
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang51.jpf

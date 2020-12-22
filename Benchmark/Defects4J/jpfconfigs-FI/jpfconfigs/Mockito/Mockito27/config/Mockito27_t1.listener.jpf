@@ -1,0 +1,7 @@
+testid=Mockito27_t1.listener
+testclass=org.mockitousage.bugs.ListenersLostOnResetMockTest
+testmethod=listener
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito27.jpf

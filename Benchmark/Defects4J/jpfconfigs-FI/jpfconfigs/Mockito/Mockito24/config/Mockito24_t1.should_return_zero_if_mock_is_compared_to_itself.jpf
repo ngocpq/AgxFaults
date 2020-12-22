@@ -1,0 +1,7 @@
+testid=Mockito24_t1.should_return_zero_if_mock_is_compared_to_itself
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest
+testmethod=should_return_zero_if_mock_is_compared_to_itself
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito24.jpf

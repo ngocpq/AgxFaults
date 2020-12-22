@@ -1,0 +1,22 @@
+Exception in thread "main" ---------------------- JPF error stack trace ---------------------
+gov.nasa.jpf.JPFNativePeerException: exception in native method java.lang.String.charAt
+	at gov.nasa.jpf.vm.NativeMethodInfo.executeNative(NativeMethodInfo.java:186)
+	at gov.nasa.jpf.jvm.bytecode.EXECUTENATIVE.execute(EXECUTENATIVE.java:73)
+	at gov.nasa.jpf.jfaults.bytecode.invoke.EXECUTENATIVE.execute(EXECUTENATIVE.java:152)
+	at gov.nasa.jpf.vm.ThreadInfo.executeInstruction(ThreadInfo.java:1908)
+	at gov.nasa.jpf.vm.ThreadInfo.executeTransition(ThreadInfo.java:1859)
+	at gov.nasa.jpf.vm.SystemState.executeNextTransition(SystemState.java:765)
+	at gov.nasa.jpf.vm.VM.forward(VM.java:1722)
+	at gov.nasa.jpf.search.Search.forward(Search.java:579)
+	at gov.nasa.jpf.search.DFSearch.search(DFSearch.java:79)
+	at gov.nasa.jpf.JPF.run(JPF.java:613)
+	at gov.nasa.jpf.jfaults.JDart.run(JDart.java:216)
+	at gov.nasa.jpf.jfaults.JDart.start(JDart.java:126)
+	at gov.nasa.jpf.tool.RunJPF.main(RunJPF.java:108)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -2147483648
+	at gov.nasa.jpf.vm.JPF_java_lang_String.charAt__I__C(JPF_java_lang_String.java:145)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at gov.nasa.jpf.vm.NativeMethodInfo.executeNative(NativeMethodInfo.java:125)
+	... 12 more

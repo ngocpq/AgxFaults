@@ -1,0 +1,7 @@
+testid=Chart1_t1.test2947660
+testclass=org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests
+testmethod=test2947660
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart1.jpf

@@ -1,0 +1,7 @@
+testid=Lang29_t1.testJavaVersionAsInt
+testclass=org.apache.commons.lang3.SystemUtilsTest
+testmethod=testJavaVersionAsInt
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang29.jpf

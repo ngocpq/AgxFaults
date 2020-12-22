@@ -1,0 +1,15 @@
+Run_project:  Chart from 22 to 22
+--- checking out Chart 22 ----
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t1.testRemoveColumnByKey.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t1.testRemoveColumnByKey.jpf
+JPF was started at  2020.12.21 00:39:37
+JPF was stopped at  2020.12.21 00:39:40
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t1.testRemoveColumnByKey.jpf
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t2.testRemoveValue.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t2.testRemoveValue.jpf
+JPF was started at  2020.12.21 00:39:40
+JPF was stopped at  2020.12.21 00:39:43
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t2.testRemoveValue.jpf
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t3.testGetValueByKey.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart22/config/Chart22_t3.testGetValueByKey.jpf
+JPF was started at  2020.12.21 00:39:43

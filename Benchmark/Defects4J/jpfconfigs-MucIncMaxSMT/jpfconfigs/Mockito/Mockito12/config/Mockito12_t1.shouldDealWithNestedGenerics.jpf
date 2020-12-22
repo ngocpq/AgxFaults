@@ -1,0 +1,7 @@
+testid=Mockito12_t1.shouldDealWithNestedGenerics
+testclass=org.mockito.internal.util.reflection.GenericMasterTest
+testmethod=shouldDealWithNestedGenerics
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito12.jpf

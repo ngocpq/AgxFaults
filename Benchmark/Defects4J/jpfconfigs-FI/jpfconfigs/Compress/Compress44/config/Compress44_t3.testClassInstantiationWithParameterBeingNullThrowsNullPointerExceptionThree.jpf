@@ -1,0 +1,7 @@
+testid=Compress44_t3.testClassInstantiationWithParameterBeingNullThrowsNullPointerExceptionThree
+testclass=org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest
+testmethod=testClassInstantiationWithParameterBeingNullThrowsNullPointerExceptionThree
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress44.jpf

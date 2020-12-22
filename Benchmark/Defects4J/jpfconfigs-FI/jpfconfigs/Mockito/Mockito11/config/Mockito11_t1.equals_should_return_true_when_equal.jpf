@@ -1,0 +1,7 @@
+testid=Mockito11_t1.equals_should_return_true_when_equal
+testclass=org.mockito.internal.creation.DelegatingMethodTest
+testmethod=equals_should_return_true_when_equal
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito11.jpf

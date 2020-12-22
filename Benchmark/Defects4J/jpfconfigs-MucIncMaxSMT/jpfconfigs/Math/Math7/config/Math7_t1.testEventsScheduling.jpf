@@ -1,0 +1,7 @@
+testid=Math7_t1.testEventsScheduling
+testclass=org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest
+testmethod=testEventsScheduling
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math7.jpf

@@ -1,0 +1,7 @@
+testid=Mockito26_t4.should_return_the_usual_default_values_for_primitives
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest
+testmethod=should_return_the_usual_default_values_for_primitives
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito26.jpf

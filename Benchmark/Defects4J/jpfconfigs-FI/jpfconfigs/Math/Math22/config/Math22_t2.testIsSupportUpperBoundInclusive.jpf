@@ -1,0 +1,7 @@
+testid=Math22_t2.testIsSupportUpperBoundInclusive
+testclass=org.apache.commons.math3.distribution.UniformRealDistributionTest
+testmethod=testIsSupportUpperBoundInclusive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math22.jpf

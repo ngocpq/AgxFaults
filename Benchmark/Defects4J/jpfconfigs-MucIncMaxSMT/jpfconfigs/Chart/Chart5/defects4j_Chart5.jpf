@@ -1,0 +1,11 @@
+@include=../../defects4j-config.jpf
+
+sut_root_dir=${D4J_CHECKOUT_DIR}/Chart/Chart5
+dir_bin_classes=build
+dir_bin_tests=build-tests
+dir_src_classes=source
+dir_src_tests=tests
+cp_compile=${D4J_CHECKOUT_DIR}/Chart/Chart5/build:${D4J_CHECKOUT_DIR}/Chart/Chart5/lib/servlet.jar
+cp_test=${D4J_CHECKOUT_DIR}/Chart/Chart5/lib/servlet.jar:${DEFECTS4J_HOME}/framework/projects/lib/junit-4.11.jar:${D4J_CHECKOUT_DIR}/Chart/Chart5/build:${D4J_CHECKOUT_DIR}/Chart/Chart5/build-tests
+
+@include=../../defects4j.jpf

@@ -1,0 +1,7 @@
+testid=Chart4_t12.testReplaceDataset
+testclass=org.jfree.chart.junit.TimeSeriesChartTests
+testmethod=testReplaceDataset
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart4.jpf

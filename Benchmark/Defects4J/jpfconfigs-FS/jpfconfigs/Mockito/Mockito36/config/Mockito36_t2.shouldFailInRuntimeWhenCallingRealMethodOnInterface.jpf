@@ -1,0 +1,7 @@
+testid=Mockito36_t2.shouldFailInRuntimeWhenCallingRealMethodOnInterface
+testclass=org.mockitousage.spies.SpyingOnInterfacesTest
+testmethod=shouldFailInRuntimeWhenCallingRealMethodOnInterface
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito36.jpf

@@ -1,0 +1,7 @@
+testid=Mockito2_t3.should_throw_exception_when_duration_is_negative_for_after_method
+testclass=org.mockito.verification.NegativeDurationTest
+testmethod=should_throw_exception_when_duration_is_negative_for_after_method
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito2.jpf

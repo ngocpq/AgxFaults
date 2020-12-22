@@ -1,0 +1,7 @@
+testid=Mockito38_t1.shouldWorkFineWhenGivenArgIsNull
+testclass=org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest
+testmethod=shouldWorkFineWhenGivenArgIsNull
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito38.jpf

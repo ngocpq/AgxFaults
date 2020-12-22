@@ -1,0 +1,7 @@
+testid=Math45_t1.testMath679
+testclass=org.apache.commons.math.linear.OpenMapRealMatrixTest
+testmethod=testMath679
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math45.jpf

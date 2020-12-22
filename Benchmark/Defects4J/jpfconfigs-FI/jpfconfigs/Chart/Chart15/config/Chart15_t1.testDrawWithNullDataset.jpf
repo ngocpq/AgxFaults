@@ -1,0 +1,7 @@
+testid=Chart15_t1.testDrawWithNullDataset
+testclass=org.jfree.chart.plot.junit.PiePlot3DTests
+testmethod=testDrawWithNullDataset
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart15.jpf

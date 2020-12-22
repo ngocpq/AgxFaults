@@ -1,0 +1,22 @@
+Run_project:  Chart from 18 to 18
+--- checking out Chart 18 ----
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t1.testBug1835955.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t1.testBug1835955.jpf
+JPF was started at  2020.12.21 00:39:25
+JPF was stopped at  2020.12.21 00:39:30
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t1.testBug1835955.jpf
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t2.testRemoveColumnByKey.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t2.testRemoveColumnByKey.jpf
+JPF was started at  2020.12.21 00:39:30
+JPF was stopped at  2020.12.21 00:39:32
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t2.testRemoveColumnByKey.jpf
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t3.testRemoveValue.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t3.testRemoveValue.jpf
+JPF was started at  2020.12.21 00:39:32
+JPF was stopped at  2020.12.21 00:39:35
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t3.testRemoveValue.jpf
+START RUNNING TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t4.testGetIndex2.jpf
+Run AgxFaults:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t4.testGetIndex2.jpf
+JPF was started at  2020.12.21 00:39:35
+JPF was stopped at  2020.12.21 00:39:37
+FINISHED TEST CASE:  /defects4j_agxfaults/jpfconfigs/Chart/Chart18/config/Chart18_t4.testGetIndex2.jpf

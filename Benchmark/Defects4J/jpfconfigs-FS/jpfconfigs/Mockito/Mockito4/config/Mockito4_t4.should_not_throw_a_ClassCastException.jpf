@@ -1,0 +1,7 @@
+testid=Mockito4_t4.should_not_throw_a_ClassCastException
+testclass=org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest
+testmethod=should_not_throw_a_ClassCastException
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito4.jpf

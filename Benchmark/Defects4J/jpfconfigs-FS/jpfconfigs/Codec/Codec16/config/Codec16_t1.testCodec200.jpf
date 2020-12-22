@@ -1,0 +1,7 @@
+testid=Codec16_t1.testCodec200
+testclass=org.apache.commons.codec.binary.Base32Test
+testmethod=testCodec200
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec16.jpf

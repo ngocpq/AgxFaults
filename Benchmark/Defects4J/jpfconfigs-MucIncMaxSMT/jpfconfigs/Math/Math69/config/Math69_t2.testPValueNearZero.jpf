@@ -1,0 +1,7 @@
+testid=Math69_t2.testPValueNearZero
+testclass=org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest
+testmethod=testPValueNearZero
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math69.jpf

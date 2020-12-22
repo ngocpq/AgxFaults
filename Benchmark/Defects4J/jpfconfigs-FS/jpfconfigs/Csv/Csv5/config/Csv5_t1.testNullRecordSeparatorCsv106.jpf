@@ -1,0 +1,7 @@
+testid=Csv5_t1.testNullRecordSeparatorCsv106
+testclass=org.apache.commons.csv.CSVFormatTest
+testmethod=testNullRecordSeparatorCsv106
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv5.jpf

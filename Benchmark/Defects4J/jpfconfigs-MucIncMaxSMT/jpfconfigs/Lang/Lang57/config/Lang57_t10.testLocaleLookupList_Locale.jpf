@@ -1,0 +1,7 @@
+testid=Lang57_t10.testLocaleLookupList_Locale
+testclass=org.apache.commons.lang.LocaleUtilsTest
+testmethod=testLocaleLookupList_Locale
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang57.jpf

@@ -1,0 +1,7 @@
+testid=Math62_t1.testQuinticMin
+testclass=org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizerTest
+testmethod=testQuinticMin
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math62.jpf

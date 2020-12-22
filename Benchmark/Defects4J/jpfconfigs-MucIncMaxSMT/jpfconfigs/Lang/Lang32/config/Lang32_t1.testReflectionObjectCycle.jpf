@@ -1,0 +1,7 @@
+testid=Lang32_t1.testReflectionObjectCycle
+testclass=org.apache.commons.lang3.builder.HashCodeBuilderTest
+testmethod=testReflectionObjectCycle
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang32.jpf

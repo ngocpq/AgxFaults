@@ -1,0 +1,7 @@
+testid=Chart14_t1.testRemoveRangeMarker
+testclass=org.jfree.chart.plot.junit.CategoryPlotTests
+testmethod=testRemoveRangeMarker
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart14.jpf

@@ -1,0 +1,7 @@
+testid=Math100_t1.testBoundParameters
+testclass=org.apache.commons.math.estimation.GaussNewtonEstimatorTest
+testmethod=testBoundParameters
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math100.jpf

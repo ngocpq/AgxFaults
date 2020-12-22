@@ -1,0 +1,7 @@
+testid=Codec2_t1.testBase64EmptyInputStream
+testclass=org.apache.commons.codec.binary.Base64InputStreamTest
+testmethod=testBase64EmptyInputStream
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec2.jpf

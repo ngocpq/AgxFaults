@@ -1,0 +1,7 @@
+testid=Math61_t1.testMean
+testclass=org.apache.commons.math.distribution.PoissonDistributionTest
+testmethod=testMean
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math61.jpf

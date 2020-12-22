@@ -1,0 +1,7 @@
+testid=Mockito25_t1.will_return_default_value_on_non_mockable_nested_generic
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest
+testmethod=will_return_default_value_on_non_mockable_nested_generic
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito25.jpf

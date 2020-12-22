@@ -1,0 +1,7 @@
+testid=Math17_t1.testMultiply
+testclass=org.apache.commons.math3.dfp.DfpTest
+testmethod=testMultiply
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math17.jpf

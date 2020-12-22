@@ -1,0 +1,7 @@
+testid=Compress36_t1.readEntriesOfSize0
+testclass=org.apache.commons.compress.archivers.sevenz.SevenZFileTest
+testmethod=readEntriesOfSize0
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress36.jpf

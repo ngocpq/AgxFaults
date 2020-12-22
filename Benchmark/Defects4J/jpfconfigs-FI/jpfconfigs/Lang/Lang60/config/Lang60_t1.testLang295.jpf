@@ -1,0 +1,7 @@
+testid=Lang60_t1.testLang295
+testclass=org.apache.commons.lang.text.StrBuilderTest
+testmethod=testLang295
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang60.jpf

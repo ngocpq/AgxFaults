@@ -1,0 +1,7 @@
+testid=Lang31_t2.testContainsAnyStringWithSupplementaryChars
+testclass=org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+testmethod=testContainsAnyStringWithSupplementaryChars
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang31.jpf

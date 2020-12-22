@@ -1,0 +1,7 @@
+testid=Math40_t1.testIssue716
+testclass=org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest
+testmethod=testIssue716
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math40.jpf

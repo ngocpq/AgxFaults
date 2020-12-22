@@ -1,0 +1,7 @@
+testid=Math10_t1.testAtan2SpecialCases
+testclass=org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest
+testmethod=testAtan2SpecialCases
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math10.jpf

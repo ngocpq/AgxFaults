@@ -1,0 +1,7 @@
+testid=Math91_t1.testCompareTo
+testclass=org.apache.commons.math.fraction.FractionTest
+testmethod=testCompareTo
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math91.jpf

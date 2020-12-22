@@ -1,0 +1,7 @@
+testid=Chart10_t1.testGenerateURLFragment
+testclass=org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests
+testmethod=testGenerateURLFragment
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart10.jpf

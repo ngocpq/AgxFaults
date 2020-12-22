@@ -1,0 +1,7 @@
+testid=Math80_t1.testMathpbx02
+testclass=org.apache.commons.math.linear.EigenDecompositionImplTest
+testmethod=testMathpbx02
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math80.jpf

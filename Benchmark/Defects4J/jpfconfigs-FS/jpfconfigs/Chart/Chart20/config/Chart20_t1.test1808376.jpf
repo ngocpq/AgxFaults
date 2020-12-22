@@ -1,0 +1,7 @@
+testid=Chart20_t1.test1808376
+testclass=org.jfree.chart.plot.junit.ValueMarkerTests
+testmethod=test1808376
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart20.jpf

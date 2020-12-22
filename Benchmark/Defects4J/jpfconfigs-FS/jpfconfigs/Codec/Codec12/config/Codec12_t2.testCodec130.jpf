@@ -1,0 +1,7 @@
+testid=Codec12_t2.testCodec130
+testclass=org.apache.commons.codec.binary.Base32InputStreamTest
+testmethod=testCodec130
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec12.jpf

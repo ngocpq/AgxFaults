@@ -1,0 +1,7 @@
+testid=Codec1_t4.testLocaleIndependence
+testclass=org.apache.commons.codec.language.RefinedSoundexTest
+testmethod=testLocaleIndependence
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec1.jpf

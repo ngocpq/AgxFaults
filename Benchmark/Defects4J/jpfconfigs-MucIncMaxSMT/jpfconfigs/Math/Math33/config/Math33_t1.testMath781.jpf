@@ -1,0 +1,7 @@
+testid=Math33_t1.testMath781
+testclass=org.apache.commons.math3.optimization.linear.SimplexSolverTest
+testmethod=testMath781
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math33.jpf

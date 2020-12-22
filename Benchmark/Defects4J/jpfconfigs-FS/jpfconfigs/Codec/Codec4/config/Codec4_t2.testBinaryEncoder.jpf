@@ -1,0 +1,7 @@
+testid=Codec4_t2.testBinaryEncoder
+testclass=org.apache.commons.codec.binary.Base64Codec13Test
+testmethod=testBinaryEncoder
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec4.jpf

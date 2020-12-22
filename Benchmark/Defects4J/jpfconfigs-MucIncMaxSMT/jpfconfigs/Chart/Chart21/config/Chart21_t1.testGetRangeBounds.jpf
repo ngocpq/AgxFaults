@@ -1,0 +1,7 @@
+testid=Chart21_t1.testGetRangeBounds
+testclass=org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests
+testmethod=testGetRangeBounds
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart21.jpf

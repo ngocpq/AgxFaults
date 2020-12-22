@@ -1,0 +1,7 @@
+testid=Compress12_t1.testCOMPRESS178
+testclass=org.apache.commons.compress.archivers.TarTestCase
+testmethod=testCOMPRESS178
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress12.jpf

@@ -1,0 +1,7 @@
+testid=Csv4_t1.testNoHeaderMap
+testclass=org.apache.commons.csv.CSVParserTest
+testmethod=testNoHeaderMap
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv4.jpf

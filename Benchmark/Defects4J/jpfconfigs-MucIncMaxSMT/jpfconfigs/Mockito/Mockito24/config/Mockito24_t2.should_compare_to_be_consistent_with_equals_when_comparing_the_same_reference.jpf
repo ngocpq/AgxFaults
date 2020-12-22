@@ -1,0 +1,7 @@
+testid=Mockito24_t2.should_compare_to_be_consistent_with_equals_when_comparing_the_same_reference
+testclass=org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest
+testmethod=should_compare_to_be_consistent_with_equals_when_comparing_the_same_reference
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito24.jpf

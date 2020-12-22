@@ -1,0 +1,7 @@
+testid=Chart26_t21.testDrawWithNullInfo
+testclass=org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests
+testmethod=testDrawWithNullInfo
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart26.jpf

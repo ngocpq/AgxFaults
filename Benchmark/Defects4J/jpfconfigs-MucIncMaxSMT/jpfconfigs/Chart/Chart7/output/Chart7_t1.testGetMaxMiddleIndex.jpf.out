@@ -1,0 +1,36 @@
+mcs_1	1
+    org/jfree/data/time/TimePeriodValues.java:305:[305_281_ifle]	# if (middle > maxMiddle) {
+mcs_2	2
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/TimePeriodValues.java:310:[310_294_putfield_ssa]	# this.maxMiddleIndex = index;
+mcs_3	3
+    org/jfree/data/time/TimePeriodValues.java:259:[259_9_lstore_3]	# long start = period.getStart().getTime();
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_4	3
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/SimpleTimePeriod.java:80:[80_22_putfield_ssa]	# this.start = start;
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_5	3
+    org/jfree/data/time/TimePeriodValues.java:302:[302_260_lstore]	# long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_6	3
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/SimpleTimePeriod.java:81:[81_27_putfield_ssa]	# this.end = end;
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_7	3
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/TimePeriodValues.java:299:[299_217_iflt]	# if (this.maxMiddleIndex >= 0) {
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_8	2
+    org/jfree/data/time/TimePeriodValues.java:552:[552_4_ireturn_ssa]	# return this.maxMiddleIndex;
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+MaxSAT_TotalTime 	74029
+MaxSAT_MaxTime 	20614
+MaxSAT_AvgTime 	2741.814814814815
+MaxSAT_Count 	27
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

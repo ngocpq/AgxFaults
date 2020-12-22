@@ -1,0 +1,7 @@
+testid=Mockito20_t1.should_spy_inner_class
+testclass=org.mockitousage.annotation.SpyAnnotationTest
+testmethod=should_spy_inner_class
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

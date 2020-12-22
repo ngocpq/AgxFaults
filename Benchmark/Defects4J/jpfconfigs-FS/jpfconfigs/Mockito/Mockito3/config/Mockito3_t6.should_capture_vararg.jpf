@@ -1,0 +1,7 @@
+testid=Mockito3_t6.should_capture_vararg
+testclass=org.mockitousage.matchers.CapturingArgumentsTest
+testmethod=should_capture_vararg
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito3.jpf

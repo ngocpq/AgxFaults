@@ -1,0 +1,7 @@
+testid=Compress3_t1.testFinish
+testclass=org.apache.commons.compress.archivers.ArchiveOutputStreamTest
+testmethod=testFinish
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress3.jpf

@@ -1,0 +1,7 @@
+testid=Mockito7_t1.discoverDeepMockingOfGenerics
+testclass=org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest
+testmethod=discoverDeepMockingOfGenerics
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito7.jpf

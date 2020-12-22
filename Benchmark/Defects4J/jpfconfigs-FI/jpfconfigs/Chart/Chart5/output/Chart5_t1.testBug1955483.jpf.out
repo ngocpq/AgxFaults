@@ -1,0 +1,22 @@
+mcs_1	1
+    org/jfree/data/xy/XYSeries.java:548:[548_32_ifne]	# if (index >= 0 && !this.allowDuplicateXValues) {
+mcs_2	1
+    org/jfree/data/xy/XYSeries.java:155:[155_24_putfield_ssa]	# this.autoSort = autoSort;
+mcs_3	1
+    org/jfree/data/xy/XYSeries.java:156:[156_29_putfield_ssa]	# this.allowDuplicateXValues = allowDuplicateXValues;
+mcs_4	1
+    org/jfree/data/xy/XYSeries.java:547:[547_21_istore]	# int index = indexOf(x);
+mcs_5	1
+    org/jfree/data/xy/XYSeries.java:590:[590_23_ireturn_ssa]	# return Collections.binarySearch(this.data, new XYDataItem(x, null));
+mcs_6	1
+    org/jfree/data/xy/XYSeries.java:563:[563_88_ifeq]	# if (this.autoSort) {
+mcs_7	1
+    org/jfree/data/xy/XYSeries.java:548:[548_25_iflt]	# if (index >= 0 && !this.allowDuplicateXValues) {
+MaxSAT_TotalTime 	108
+MaxSAT_MaxTime 	40
+MaxSAT_AvgTime 	9.0
+MaxSAT_Count 	12
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

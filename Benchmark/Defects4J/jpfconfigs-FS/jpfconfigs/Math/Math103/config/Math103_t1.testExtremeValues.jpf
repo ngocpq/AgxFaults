@@ -1,0 +1,7 @@
+testid=Math103_t1.testExtremeValues
+testclass=org.apache.commons.math.distribution.NormalDistributionTest
+testmethod=testExtremeValues
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math103.jpf

@@ -1,0 +1,7 @@
+testid=Lang54_t1.testLang328
+testclass=org.apache.commons.lang.LocaleUtilsTest
+testmethod=testLang328
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang54.jpf

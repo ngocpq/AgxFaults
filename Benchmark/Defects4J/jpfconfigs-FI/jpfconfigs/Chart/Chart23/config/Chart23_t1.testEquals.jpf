@@ -1,0 +1,7 @@
+testid=Chart23_t1.testEquals
+testclass=org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests
+testmethod=testEquals
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart23.jpf

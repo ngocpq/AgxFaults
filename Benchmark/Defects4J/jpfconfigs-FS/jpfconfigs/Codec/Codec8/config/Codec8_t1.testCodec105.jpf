@@ -1,0 +1,7 @@
+testid=Codec8_t1.testCodec105
+testclass=org.apache.commons.codec.binary.Base64InputStreamTest
+testmethod=testCodec105
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec8.jpf

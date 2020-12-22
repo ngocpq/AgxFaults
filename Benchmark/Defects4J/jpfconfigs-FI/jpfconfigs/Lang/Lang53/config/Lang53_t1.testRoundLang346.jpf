@@ -1,0 +1,7 @@
+testid=Lang53_t1.testRoundLang346
+testclass=org.apache.commons.lang.time.DateUtilsTest
+testmethod=testRoundLang346
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang53.jpf

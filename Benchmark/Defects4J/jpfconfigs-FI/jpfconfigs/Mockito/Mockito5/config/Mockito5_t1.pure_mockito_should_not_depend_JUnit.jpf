@@ -1,0 +1,7 @@
+testid=Mockito5_t1.pure_mockito_should_not_depend_JUnit
+testclass=org.mockitointegration.NoJUnitDependenciesTest
+testmethod=pure_mockito_should_not_depend_JUnit
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito5.jpf

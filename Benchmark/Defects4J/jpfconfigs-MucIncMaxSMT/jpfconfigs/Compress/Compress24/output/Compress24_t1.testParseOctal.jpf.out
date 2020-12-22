@@ -1,0 +1,113 @@
+mcs_1	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:111:[111_51_ifne]	# if (buffer[start] == 0) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:112:[112_55_lreturn]	# return 0L;
+mcs_2	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:130:[130_98_iinc_ssa]	# end--;
+mcs_3	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:130:[130_98_iinc_ssa]	# end--;
+mcs_4	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:130:[130_98_iinc_ssa]	# end--;
+mcs_5	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:152:[152_230_lreturn]	# return result;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_6	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:152:[152_230_lreturn]	# return result;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_7	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:152:[152_230_lreturn]	# return result;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+mcs_8	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:103:[103_1_lstore_3]	# long    result = 0;
+mcs_9	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:103:[103_1_lstore_3]	# long    result = 0;
+mcs_10	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:103:[103_1_lstore_3]	# long    result = 0;
+mcs_11	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:148:[148_222_lstore_3]	# result = (result << 3) + (currentByte - '0'); // convert from ASCII
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_12	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:148:[148_222_lstore_3]	# result = (result << 3) + (currentByte - '0'); // convert from ASCII
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_13	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:148:[148_222_lstore_3]	# result = (result << 3) + (currentByte - '0'); // convert from ASCII
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+mcs_14	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_171_if_icmpge]	# for ( ;start < end; start++) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_15	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_171_if_icmpge]	# for ( ;start < end; start++) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_16	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_171_if_icmpge]	# for ( ;start < end; start++) {
+mcs_17	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_223_iinc_ssa]	# for ( ;start < end; start++) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_18	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_223_iinc_ssa]	# for ( ;start < end; start++) {
+mcs_19	2
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:141:[141_223_iinc_ssa]	# for ( ;start < end; start++) {
+mcs_20	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:135:[135_130_istore]	# trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_21	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:135:[135_130_istore]	# trailer = buffer[end - 1];
+mcs_22	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:135:[135_130_istore]	# trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_23	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_150_if_icmpne]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_24	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_150_if_icmpne]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_25	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_150_if_icmpne]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+mcs_26	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_143_ifeq]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+mcs_27	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_143_ifeq]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+mcs_28	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:137:[137_153_iinc_ssa]	# end--;
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:136:[136_143_ifeq]	# while (start < end - 1 && (trailer == 0 || trailer == ' ')) {
+mcs_29	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:142:[142_178_istore]	# final byte currentByte = buffer[start];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:144:[144_191_if_icmple]	# if (currentByte < '0' || currentByte > '7'){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:128:[128_84_istore]	# byte trailer = buffer[end - 1];
+mcs_30	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:142:[142_178_istore]	# final byte currentByte = buffer[start];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:144:[144_191_if_icmple]	# if (currentByte < '0' || currentByte > '7'){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_95_if_icmpne]	# if (trailer == 0 || trailer == ' '){
+mcs_31	3
+    org/apache/commons/compress/archivers/tar/TarUtils.java:129:[129_88_ifeq]	# if (trailer == 0 || trailer == ' '){
+    org/apache/commons/compress/archivers/tar/TarUtils.java:142:[142_178_istore]	# final byte currentByte = buffer[start];
+    org/apache/commons/compress/archivers/tar/TarUtils.java:144:[144_191_if_icmple]	# if (currentByte < '0' || currentByte > '7'){
+MaxSAT_TotalTime 	10115
+MaxSAT_MaxTime 	569
+MaxSAT_AvgTime 	83.59504132231405
+MaxSAT_Count 	121
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

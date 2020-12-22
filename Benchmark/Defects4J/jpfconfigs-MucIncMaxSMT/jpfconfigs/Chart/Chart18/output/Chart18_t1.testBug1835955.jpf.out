@@ -1,0 +1,6 @@
+mcs_1	1
+    org/jfree/data/DefaultKeyedValues2D.java:320:[320_5_istore]	# int rowIndex = getRowIndex(rowKey);
+mcs_2	1
+    org/jfree/data/DefaultKeyedValues2D.java:189:[189_40_ireturn_ssa]	# return this.rowKeys.indexOf(key);
+mcs_3	1
+    org/jfree/data/DefaultKeyedValues2D.java:456:[456_16_ifeq]	# while (iterator.hasNext()) {

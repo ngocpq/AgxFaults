@@ -1,0 +1,7 @@
+testid=Lang65_t1.testTruncateLang59
+testclass=org.apache.commons.lang.time.DateUtilsTest
+testmethod=testTruncateLang59
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang65.jpf

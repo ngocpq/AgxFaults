@@ -1,0 +1,7 @@
+testid=Math42_t1.testMath713NegativeVariable
+testclass=org.apache.commons.math.optimization.linear.SimplexSolverTest
+testmethod=testMath713NegativeVariable
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math42.jpf

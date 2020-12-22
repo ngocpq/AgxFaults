@@ -1,0 +1,7 @@
+testid=Chart26_t12.test1654215
+testclass=org.jfree.chart.plot.junit.CategoryPlotTests
+testmethod=test1654215
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart26.jpf

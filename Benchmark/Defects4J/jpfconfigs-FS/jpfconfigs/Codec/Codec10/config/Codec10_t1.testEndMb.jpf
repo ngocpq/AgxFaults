@@ -1,0 +1,7 @@
+testid=Codec10_t1.testEndMb
+testclass=org.apache.commons.codec.language.CaverphoneTest
+testmethod=testEndMb
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec10.jpf

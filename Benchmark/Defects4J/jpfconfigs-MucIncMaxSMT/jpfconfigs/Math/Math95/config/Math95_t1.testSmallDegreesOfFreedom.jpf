@@ -1,0 +1,7 @@
+testid=Math95_t1.testSmallDegreesOfFreedom
+testclass=org.apache.commons.math.distribution.FDistributionTest
+testmethod=testSmallDegreesOfFreedom
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math95.jpf

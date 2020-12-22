@@ -1,0 +1,13 @@
+Exception in thread "main" java.lang.NullPointerException
+	at gov.nasa.jpf.jvm.bytecode.VirtualInvocation.getInvokedMethod(VirtualInvocation.java:162)
+	at gov.nasa.jpf.jvm.bytecode.VirtualInvocation.execute(VirtualInvocation.java:95)
+	at gov.nasa.jpf.vm.ThreadInfo.executeInstruction(ThreadInfo.java:1908)
+	at gov.nasa.jpf.vm.ThreadInfo.executeTransition(ThreadInfo.java:1859)
+	at gov.nasa.jpf.vm.SystemState.executeNextTransition(SystemState.java:765)
+	at gov.nasa.jpf.vm.VM.forward(VM.java:1722)
+	at gov.nasa.jpf.search.Search.forward(Search.java:579)
+	at gov.nasa.jpf.search.DFSearch.search(DFSearch.java:79)
+	at gov.nasa.jpf.JPF.run(JPF.java:613)
+	at gov.nasa.jpf.jfaults.JDart.run(JDart.java:201)
+	at gov.nasa.jpf.jfaults.JDart.start(JDart.java:125)
+	at gov.nasa.jpf.tool.RunJPF.main(RunJPF.java:108)

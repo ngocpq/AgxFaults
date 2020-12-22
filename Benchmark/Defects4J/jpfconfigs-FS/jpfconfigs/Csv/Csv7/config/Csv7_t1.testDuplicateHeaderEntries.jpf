@@ -1,0 +1,7 @@
+testid=Csv7_t1.testDuplicateHeaderEntries
+testclass=org.apache.commons.csv.CSVParserTest
+testmethod=testDuplicateHeaderEntries
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv7.jpf

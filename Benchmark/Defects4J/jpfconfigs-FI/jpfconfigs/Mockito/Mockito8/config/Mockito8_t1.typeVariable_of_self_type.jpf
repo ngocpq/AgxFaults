@@ -1,0 +1,7 @@
+testid=Mockito8_t1.typeVariable_of_self_type
+testclass=org.mockito.internal.util.reflection.GenericMetadataSupportTest
+testmethod=typeVariable_of_self_type
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito8.jpf

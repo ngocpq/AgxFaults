@@ -1,0 +1,7 @@
+testid=Math27_t1.testMath835
+testclass=org.apache.commons.math3.fraction.FractionTest
+testmethod=testMath835
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math27.jpf

@@ -1,0 +1,11 @@
+@include=../../defects4j-config.jpf
+
+sut_root_dir=${D4J_CHECKOUT_DIR}/Math/Math101
+dir_bin_classes=target/classes
+dir_bin_tests=target/test-classes
+dir_src_classes=src/java
+dir_src_tests=src/test
+cp_compile=
+cp_test=
+
+@include=../../defects4j.jpf

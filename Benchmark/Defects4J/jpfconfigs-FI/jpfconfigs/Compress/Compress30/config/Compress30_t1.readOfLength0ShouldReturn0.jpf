@@ -1,0 +1,7 @@
+testid=Compress30_t1.readOfLength0ShouldReturn0
+testclass=org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest
+testmethod=readOfLength0ShouldReturn0
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress30.jpf

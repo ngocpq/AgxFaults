@@ -1,0 +1,7 @@
+testid=Math32_t1.testIssue780
+testclass=org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest
+testmethod=testIssue780
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math32.jpf

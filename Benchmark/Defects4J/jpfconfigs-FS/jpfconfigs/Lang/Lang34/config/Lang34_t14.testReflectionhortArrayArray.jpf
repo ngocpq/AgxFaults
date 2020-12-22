@@ -1,0 +1,7 @@
+testid=Lang34_t14.testReflectionhortArrayArray
+testclass=org.apache.commons.lang3.builder.ToStringBuilderTest
+testmethod=testReflectionhortArrayArray
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang34.jpf

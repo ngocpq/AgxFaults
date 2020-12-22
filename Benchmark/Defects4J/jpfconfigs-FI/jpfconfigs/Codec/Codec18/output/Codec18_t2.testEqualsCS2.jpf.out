@@ -1,0 +1,20 @@
+mcs_1	1
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_12_ifnonnull]	# if (cs1 == null || cs2 == null) {
+mcs_2	1
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_8_ifnull]	# if (cs1 == null || cs2 == null) {
+mcs_3	1
+    org/apache/commons/codec/binary/StringUtils.java:78:[78_21_ifeq]	# if (cs1 instanceof String && cs2 instanceof String) {
+mcs_4	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:54:[54_33_istore]	# int index1 = thisStart;
+mcs_5	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:51:[51_4_ifeq]	# if (cs instanceof String && substring instanceof String) {
+mcs_6	1
+    org/apache/commons/codec/binary/CharSequenceUtils.java:56:[56_41_istore]	# int tmpLen = length;
+MaxSAT_TotalTime 	133
+MaxSAT_MaxTime 	38
+MaxSAT_AvgTime 	12.090909090909092
+MaxSAT_Count 	11
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

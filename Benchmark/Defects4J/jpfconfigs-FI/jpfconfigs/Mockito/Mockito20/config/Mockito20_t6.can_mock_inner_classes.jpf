@@ -1,0 +1,7 @@
+testid=Mockito20_t6.can_mock_inner_classes
+testclass=org.mockitousage.constructor.CreatingMocksWithConstructorTest
+testmethod=can_mock_inner_classes
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

@@ -1,0 +1,16 @@
+mcs_1	1
+    org/apache/commons/csv/CSVFormat.java:668:[668_352_if_icmpeq]	# if (set.size() != header.length) {
+mcs_2	1
+    org/apache/commons/csv/CSVFormat.java:665:[665_311_ifnull]	# if (header != null) {
+mcs_3	1
+    org/apache/commons/csv/CSVFormat.java:313:[313_74_ifnonnull]	# if (header == null) {
+mcs_4	1
+    org/apache/commons/csv/CSVFormat.java:316:[316_94_putfield_ssa]	# this.header = header.clone();
+MaxSAT_TotalTime 	188
+MaxSAT_MaxTime 	30
+MaxSAT_AvgTime 	11.058823529411764
+MaxSAT_Count 	17
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

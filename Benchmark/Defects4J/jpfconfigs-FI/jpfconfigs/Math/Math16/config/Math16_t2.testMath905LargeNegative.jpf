@@ -1,0 +1,7 @@
+testid=Math16_t2.testMath905LargeNegative
+testclass=org.apache.commons.math3.util.FastMathTest
+testmethod=testMath905LargeNegative
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math16.jpf

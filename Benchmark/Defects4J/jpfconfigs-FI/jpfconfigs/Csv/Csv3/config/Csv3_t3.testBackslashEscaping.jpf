@@ -1,0 +1,7 @@
+testid=Csv3_t3.testBackslashEscaping
+testclass=org.apache.commons.csv.CSVParserTest
+testmethod=testBackslashEscaping
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv3.jpf

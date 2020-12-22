@@ -1,0 +1,12 @@
+mcs_1	1
+    org/apache/commons/math/util/MathUtils.java:412:[412_3_ifne]	# if (u * v == 0) {
+mcs_2	1
+    org/apache/commons/math/util/MathUtils.java:413:[413_15_ireturn_ssa]	# return (Math.abs(u) + Math.abs(v));
+MaxSAT_TotalTime 	56194
+MaxSAT_MaxTime 	54553
+MaxSAT_AvgTime 	6243.777777777777
+MaxSAT_Count 	9
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

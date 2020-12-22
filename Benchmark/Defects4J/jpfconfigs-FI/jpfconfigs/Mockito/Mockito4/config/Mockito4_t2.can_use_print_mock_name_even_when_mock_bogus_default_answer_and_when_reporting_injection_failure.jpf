@@ -1,0 +1,7 @@
+testid=Mockito4_t2.can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_injection_failure
+testclass=org.mockito.exceptions.ReporterTest
+testmethod=can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_injection_failure
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito4.jpf

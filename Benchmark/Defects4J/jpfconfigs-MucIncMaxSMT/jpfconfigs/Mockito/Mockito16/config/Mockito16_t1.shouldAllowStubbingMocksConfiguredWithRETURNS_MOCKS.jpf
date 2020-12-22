@@ -1,0 +1,7 @@
+testid=Mockito16_t1.shouldAllowStubbingMocksConfiguredWithRETURNS_MOCKS
+testclass=org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest
+testmethod=shouldAllowStubbingMocksConfiguredWithRETURNS_MOCKS
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito16.jpf

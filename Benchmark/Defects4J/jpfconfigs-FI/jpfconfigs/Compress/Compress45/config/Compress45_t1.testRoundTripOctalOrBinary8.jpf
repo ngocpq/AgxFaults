@@ -1,0 +1,7 @@
+testid=Compress45_t1.testRoundTripOctalOrBinary8
+testclass=org.apache.commons.compress.archivers.tar.TarUtilsTest
+testmethod=testRoundTripOctalOrBinary8
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress45.jpf

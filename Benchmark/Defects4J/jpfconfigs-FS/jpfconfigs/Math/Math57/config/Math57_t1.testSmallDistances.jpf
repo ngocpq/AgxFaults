@@ -1,0 +1,7 @@
+testid=Math57_t1.testSmallDistances
+testclass=org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest
+testmethod=testSmallDistances
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math57.jpf

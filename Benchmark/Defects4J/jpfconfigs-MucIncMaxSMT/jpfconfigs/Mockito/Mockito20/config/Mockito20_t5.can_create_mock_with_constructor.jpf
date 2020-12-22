@@ -1,0 +1,7 @@
+testid=Mockito20_t5.can_create_mock_with_constructor
+testclass=org.mockitousage.constructor.CreatingMocksWithConstructorTest
+testmethod=can_create_mock_with_constructor
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

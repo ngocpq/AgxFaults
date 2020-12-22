@@ -1,0 +1,7 @@
+testid=Math101_t2.testForgottenImaginaryCharacter
+testclass=org.apache.commons.math.complex.FrenchComplexFormatTest
+testmethod=testForgottenImaginaryCharacter
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math101.jpf

@@ -1,0 +1,7 @@
+testid=Lang27_t1.testCreateNumber
+testclass=org.apache.commons.lang3.math.NumberUtilsTest
+testmethod=testCreateNumber
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang27.jpf

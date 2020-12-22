@@ -1,0 +1,7 @@
+testid=Mockito14_t1.shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine
+testclass=org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest
+testmethod=shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito14.jpf

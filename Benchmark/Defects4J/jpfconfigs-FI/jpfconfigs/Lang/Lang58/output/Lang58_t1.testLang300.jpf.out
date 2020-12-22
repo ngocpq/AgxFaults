@@ -1,0 +1,26 @@
+mcs_1	1
+    org/apache/commons/lang/math/NumberUtils.java:1508:[1508_8_ireturn_ssa]	# return false;
+mcs_2	1
+    org/apache/commons/lang/math/NumberUtils.java:452:[452_354_ifeq]	# if (dec == null
+mcs_3	1
+    org/apache/commons/lang/math/NumberUtils.java:449:[449_276_lookupswitch]	# switch (lastChar) {
+mcs_4	1
+    org/apache/commons/lang/math/NumberUtils.java:411:[411_49_ifeq]	# if (str.startsWith("0x") || str.startsWith("-0x")) {
+mcs_5	1
+    org/apache/commons/lang/math/NumberUtils.java:404:[404_29_ifeq]	# if (str.startsWith("--")) {
+mcs_6	1
+    org/apache/commons/lang/math/NumberUtils.java:411:[411_40_ifne]	# if (str.startsWith("0x") || str.startsWith("-0x")) {
+mcs_7	1
+    org/apache/commons/lang/math/NumberUtils.java:440:[440_198_ifne]	# if (!Character.isDigit(lastChar)) {
+mcs_8	1
+    org/apache/commons/lang/math/NumberUtils.java:414:[414_67_istore_1]	# char lastChar = str.charAt(str.length() - 1);
+mcs_9	1
+    org/apache/commons/lang/math/NumberUtils.java:398:[398_1_ifnonnull]	# if (str == null) {
+MaxSAT_TotalTime 	136
+MaxSAT_MaxTime 	28
+MaxSAT_AvgTime 	9.714285714285714
+MaxSAT_Count 	14
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

@@ -1,0 +1,5 @@
+D4J_CHECKOUT_DIR=C:/workplace/agxfault_experiment/defects4j/defects4j_checkout
+
+#D4J_CHECKOUT_DIR=C:/Docker/jpf-core-z3-v4.1/defects4j_project_checkout
+
+DEFECTS4J_HOME=C:/workplace/defects4j

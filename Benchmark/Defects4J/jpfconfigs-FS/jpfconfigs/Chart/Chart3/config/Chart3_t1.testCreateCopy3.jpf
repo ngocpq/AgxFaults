@@ -1,0 +1,7 @@
+testid=Chart3_t1.testCreateCopy3
+testclass=org.jfree.data.time.junit.TimeSeriesTests
+testmethod=testCreateCopy3
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart3.jpf

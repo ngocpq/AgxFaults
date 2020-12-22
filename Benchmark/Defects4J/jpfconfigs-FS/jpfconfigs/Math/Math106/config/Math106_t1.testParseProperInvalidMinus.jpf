@@ -1,0 +1,7 @@
+testid=Math106_t1.testParseProperInvalidMinus
+testclass=org.apache.commons.math.fraction.FractionFormatTest
+testmethod=testParseProperInvalidMinus
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math106.jpf

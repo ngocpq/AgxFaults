@@ -1,0 +1,7 @@
+testid=Lang20_t2.testJoin_Objectarray
+testclass=org.apache.commons.lang3.StringUtilsTest
+testmethod=testJoin_Objectarray
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang20.jpf

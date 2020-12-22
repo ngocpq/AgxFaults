@@ -1,0 +1,7 @@
+testid=Math6_t1.testTrivial
+testclass=org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest
+testmethod=testTrivial
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math6.jpf

@@ -1,0 +1,7 @@
+testid=Csv3_t2.testEscapedCharacter
+testclass=org.apache.commons.csv.CSVLexerTest
+testmethod=testEscapedCharacter
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv3.jpf

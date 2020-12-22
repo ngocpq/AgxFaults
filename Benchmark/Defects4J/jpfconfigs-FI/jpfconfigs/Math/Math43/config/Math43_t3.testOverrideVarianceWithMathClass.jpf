@@ -1,0 +1,7 @@
+testid=Math43_t3.testOverrideVarianceWithMathClass
+testclass=org.apache.commons.math.stat.descriptive.SummaryStatisticsTest
+testmethod=testOverrideVarianceWithMathClass
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math43.jpf

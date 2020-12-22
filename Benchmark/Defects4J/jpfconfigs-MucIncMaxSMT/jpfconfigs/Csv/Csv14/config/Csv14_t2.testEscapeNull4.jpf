@@ -1,0 +1,7 @@
+testid=Csv14_t2.testEscapeNull4
+testclass=org.apache.commons.csv.CSVPrinterTest
+testmethod=testEscapeNull4
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv14.jpf

@@ -1,0 +1,7 @@
+testid=Chart14_t2.testRemoveDomainMarker
+testclass=org.jfree.chart.plot.junit.CategoryPlotTests
+testmethod=testRemoveDomainMarker
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart14.jpf

@@ -1,0 +1,7 @@
+testid=Lang43_t1.testEscapedQuote_LANG_477
+testclass=org.apache.commons.lang.text.ExtendedMessageFormatTest
+testmethod=testEscapedQuote_LANG_477
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang43.jpf

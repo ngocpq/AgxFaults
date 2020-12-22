@@ -1,0 +1,7 @@
+testid=Compress6_t1.testNotEquals
+testclass=org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest
+testmethod=testNotEquals
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress6.jpf

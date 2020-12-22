@@ -1,0 +1,7 @@
+testid=Mockito28_t1.mock_should_be_injected_once_and_in_the_best_matching_type
+testclass=org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest
+testmethod=mock_should_be_injected_once_and_in_the_best_matching_type
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito28.jpf

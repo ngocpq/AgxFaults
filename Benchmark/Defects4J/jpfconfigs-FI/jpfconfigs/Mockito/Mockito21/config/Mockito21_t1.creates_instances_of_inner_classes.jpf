@@ -1,0 +1,7 @@
+testid=Mockito21_t1.creates_instances_of_inner_classes
+testclass=org.mockito.internal.creation.instance.ConstructorInstantiatorTest
+testmethod=creates_instances_of_inner_classes
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito21.jpf

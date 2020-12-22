@@ -1,0 +1,6 @@
+mcs_1	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1382:[1382_65_ireturn_ssa]	# return i;
+mcs_2	2
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_51_if_icmpge]	# for (int j = 0; j < searchLen; j++) {
+    org/apache/commons/lang3/StringUtils.java:1376:[1376_25_istore_3]	# int searchLen = searchChars.length;

@@ -1,0 +1,7 @@
+testid=Math12_t2.testDistributionClone
+testclass=org.apache.commons.math3.distribution.LogNormalDistributionTest
+testmethod=testDistributionClone
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math12.jpf

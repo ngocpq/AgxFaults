@@ -1,0 +1,7 @@
+testid=Mockito1_t25.shouldEvaluateLatestStubbingFirst
+testclass=org.mockitousage.stubbing.DeprecatedStubbingTest
+testmethod=shouldEvaluateLatestStubbingFirst
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

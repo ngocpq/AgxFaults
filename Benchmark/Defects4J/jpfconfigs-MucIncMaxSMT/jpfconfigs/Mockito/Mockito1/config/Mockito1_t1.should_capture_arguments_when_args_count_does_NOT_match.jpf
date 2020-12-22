@@ -1,0 +1,7 @@
+testid=Mockito1_t1.should_capture_arguments_when_args_count_does_NOT_match
+testclass=org.mockito.internal.invocation.InvocationMatcherTest
+testmethod=should_capture_arguments_when_args_count_does_NOT_match
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

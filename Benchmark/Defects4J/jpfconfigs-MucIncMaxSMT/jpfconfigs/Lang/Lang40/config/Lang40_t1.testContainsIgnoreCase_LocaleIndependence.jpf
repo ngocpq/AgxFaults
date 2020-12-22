@@ -1,0 +1,7 @@
+testid=Lang40_t1.testContainsIgnoreCase_LocaleIndependence
+testclass=org.apache.commons.lang.StringUtilsEqualsIndexOfTest
+testmethod=testContainsIgnoreCase_LocaleIndependence
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang40.jpf

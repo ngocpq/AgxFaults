@@ -1,0 +1,7 @@
+testid=Csv10_t1.testHeader
+testclass=org.apache.commons.csv.CSVPrinterTest
+testmethod=testHeader
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv10.jpf

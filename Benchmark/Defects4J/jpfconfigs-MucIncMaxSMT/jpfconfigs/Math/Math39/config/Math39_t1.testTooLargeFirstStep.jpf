@@ -1,0 +1,7 @@
+testid=Math39_t1.testTooLargeFirstStep
+testclass=org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest
+testmethod=testTooLargeFirstStep
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math39.jpf

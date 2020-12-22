@@ -1,0 +1,7 @@
+testid=Mockito23_t1.should_serialize_and_deserialize_mock_created_by_deep_stubs
+testclass=org.mockitousage.stubbing.DeepStubsSerializableTest
+testmethod=should_serialize_and_deserialize_mock_created_by_deep_stubs
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito23.jpf

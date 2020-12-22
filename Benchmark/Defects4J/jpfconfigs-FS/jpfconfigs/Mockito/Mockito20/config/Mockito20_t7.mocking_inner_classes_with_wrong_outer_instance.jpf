@@ -1,0 +1,7 @@
+testid=Mockito20_t7.mocking_inner_classes_with_wrong_outer_instance
+testclass=org.mockitousage.constructor.CreatingMocksWithConstructorTest
+testmethod=mocking_inner_classes_with_wrong_outer_instance
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito20.jpf

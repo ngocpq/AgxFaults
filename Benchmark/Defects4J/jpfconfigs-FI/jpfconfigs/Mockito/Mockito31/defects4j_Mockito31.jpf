@@ -1,0 +1,11 @@
+@include=../../defects4j-config.jpf
+
+sut_root_dir=${D4J_CHECKOUT_DIR}/Mockito/Mockito31
+dir_bin_classes=target/classes
+dir_bin_tests=target/test-classes
+dir_src_classes=src
+dir_src_tests=test
+cp_compile=${D4J_CHECKOUT_DIR}/Mockito/Mockito31/target/classes:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/asm-all-5.0.4.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/assertj-core-2.1.0.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/cobertura-2.0.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/fest-assert-1.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/fest-util-1.1.4.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/hamcrest-all-1.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/hamcrest-core-1.1.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/objenesis-2.1.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/objenesis-2.2.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+cp_test=${DEFECTS4J_HOME}/framework/projects/lib/junit-4.11.jar:${D4J_CHECKOUT_DIR}/Mockito/Mockito31/target/classes:${D4J_CHECKOUT_DIR}/Mockito/Mockito31/target/test-classes:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/asm-all-5.0.4.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/assertj-core-2.1.0.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/cobertura-2.0.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/fest-assert-1.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/fest-util-1.1.4.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/hamcrest-all-1.3.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/hamcrest-core-1.1.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/objenesis-2.1.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/objenesis-2.2.jar:${DEFECTS4J_HOME}/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+
+@include=../../defects4j.jpf

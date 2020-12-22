@@ -1,0 +1,7 @@
+testid=Compress14_t1.workaroundForBrokenTimeHeader
+testclass=org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+testmethod=workaroundForBrokenTimeHeader
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress14.jpf

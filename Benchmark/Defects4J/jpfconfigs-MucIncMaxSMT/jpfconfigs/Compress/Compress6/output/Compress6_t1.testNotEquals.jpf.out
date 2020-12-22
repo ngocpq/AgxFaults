@@ -1,0 +1,16 @@
+mcs_1	1
+    org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java:458:[458_8_ifnull]	# if (obj == null || getClass() != obj.getClass()) {
+mcs_2	1
+    org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java:463:[463_40_ifnull]	# if (other.name != null) {
+mcs_3	1
+    org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java:469:[469_62_ireturn_ssa]	# return true;
+mcs_4	1
+    org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java:56:[56_32_putfield_ssa]	# private String name = null;
+MaxSAT_TotalTime 	75
+MaxSAT_MaxTime 	27
+MaxSAT_AvgTime 	7.5
+MaxSAT_Count 	10
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

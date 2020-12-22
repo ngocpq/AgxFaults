@@ -1,0 +1,11 @@
+@include=../../defects4j-config.jpf
+
+sut_root_dir=${D4J_CHECKOUT_DIR}/Lang/Lang6
+dir_bin_classes=target/classes
+dir_bin_tests=target/tests
+dir_src_classes=src/main/java
+dir_src_tests=src/test/java
+cp_compile=${D4J_CHECKOUT_DIR}/Lang/Lang6/target/classes
+cp_test=${D4J_CHECKOUT_DIR}/Lang/Lang6/target/classes:${D4J_CHECKOUT_DIR}/Lang/Lang6/target/tests:${DEFECTS4J_HOME}/framework/projects/lib/junit-4.11.jar:${DEFECTS4J_HOME}/framework/projects/Lang/lib/easymock.jar:${DEFECTS4J_HOME}/framework/projects/Lang/lib/commons-io.jar:${DEFECTS4J_HOME}/framework/projects/Lang/lib/cglib.jar:${DEFECTS4J_HOME}/framework/projects/Lang/lib/asm.jar
+
+@include=../../defects4j.jpf

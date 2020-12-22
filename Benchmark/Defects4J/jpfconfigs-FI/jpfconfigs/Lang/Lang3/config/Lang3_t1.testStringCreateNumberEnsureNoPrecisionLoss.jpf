@@ -1,0 +1,7 @@
+testid=Lang3_t1.testStringCreateNumberEnsureNoPrecisionLoss
+testclass=org.apache.commons.lang3.math.NumberUtilsTest
+testmethod=testStringCreateNumberEnsureNoPrecisionLoss
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang3.jpf

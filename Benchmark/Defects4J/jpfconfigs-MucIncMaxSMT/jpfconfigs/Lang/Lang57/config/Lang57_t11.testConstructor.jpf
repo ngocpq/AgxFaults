@@ -1,0 +1,7 @@
+testid=Lang57_t11.testConstructor
+testclass=org.apache.commons.lang.LocaleUtilsTest
+testmethod=testConstructor
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang57.jpf

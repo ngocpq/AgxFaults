@@ -1,0 +1,7 @@
+testid=Math71_t2.testMissedEndEvent
+testclass=org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest
+testmethod=testMissedEndEvent
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math71.jpf

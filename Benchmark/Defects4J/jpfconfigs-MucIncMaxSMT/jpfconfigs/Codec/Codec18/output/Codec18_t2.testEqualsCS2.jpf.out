@@ -1,0 +1,6 @@
+mcs_1	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:62:[62_81_if_icmpne]	# if (c1 == c2) {
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_12_ifnonnull]	# if (cs1 == null || cs2 == null) {
+mcs_2	2
+    org/apache/commons/codec/binary/CharSequenceUtils.java:59:[59_62_istore]	# final char c1 = cs.charAt(index1++);
+    org/apache/commons/codec/binary/StringUtils.java:75:[75_12_ifnonnull]	# if (cs1 == null || cs2 == null) {

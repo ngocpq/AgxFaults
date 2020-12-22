@@ -1,0 +1,7 @@
+testid=Mockito2_t1.should_throw_friendly_reminder_exception_when_duration_is_negative
+testclass=org.mockito.internal.util.TimerTest
+testmethod=should_throw_friendly_reminder_exception_when_duration_is_negative
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito2.jpf

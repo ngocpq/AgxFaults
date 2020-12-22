@@ -1,0 +1,7 @@
+testid=Codec13_t2.testCodec184
+testclass=org.apache.commons.codec.language.DoubleMetaphoneTest
+testmethod=testCodec184
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec13.jpf

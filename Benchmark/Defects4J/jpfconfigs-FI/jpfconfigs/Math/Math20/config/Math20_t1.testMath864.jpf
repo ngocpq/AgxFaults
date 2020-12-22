@@ -1,0 +1,7 @@
+testid=Math20_t1.testMath864
+testclass=org.apache.commons.math3.optimization.direct.CMAESOptimizerTest
+testmethod=testMath864
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math20.jpf

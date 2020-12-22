@@ -1,0 +1,7 @@
+testid=Lang63_t1.testJiraLang281
+testclass=org.apache.commons.lang.time.DurationFormatUtilsTest
+testmethod=testJiraLang281
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang63.jpf

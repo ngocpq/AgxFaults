@@ -1,0 +1,7 @@
+testid=Mockito35_t2.shouldNotThrowNPEWhenIntegerPassed
+testclass=org.mockitousage.bugs.NPEWithCertainMatchersTest
+testmethod=shouldNotThrowNPEWhenIntegerPassed
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito35.jpf

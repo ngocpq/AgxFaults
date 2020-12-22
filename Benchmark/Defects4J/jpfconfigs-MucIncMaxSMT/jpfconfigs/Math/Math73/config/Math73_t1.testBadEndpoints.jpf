@@ -1,0 +1,7 @@
+testid=Math73_t1.testBadEndpoints
+testclass=org.apache.commons.math.analysis.solvers.BrentSolverTest
+testmethod=testBadEndpoints
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math73.jpf

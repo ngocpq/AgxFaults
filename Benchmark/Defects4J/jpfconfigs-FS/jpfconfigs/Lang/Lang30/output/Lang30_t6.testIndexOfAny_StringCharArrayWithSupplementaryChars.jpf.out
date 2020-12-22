@@ -1,0 +1,42 @@
+mcs_1	1
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_32_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+mcs_2	1
+    org/apache/commons/lang3/StringUtils.java:1377:[1377_27_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_3	1
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_46_istore]	# for (int j = 0; j < searchLen; j++) {
+mcs_4	1
+    org/apache/commons/lang3/StringUtils.java:1376:[1376_25_istore_3]	# int searchLen = searchChars.length;
+mcs_5	1
+    org/apache/commons/lang3/StringUtils.java:1378:[1378_43_istore]	# char ch = cs.charAt(i);
+mcs_6	1
+    org/apache/commons/lang3/StringUtils.java:1380:[1380_60_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_7	1
+    org/apache/commons/lang3/StringUtils.java:1379:[1379_51_if_icmpge]	# for (int j = 0; j < searchLen; j++) {
+mcs_8	1
+    org/apache/commons/lang3/StringUtils.java:1375:[1375_22_istore_2]	# int csLen = cs.length();
+mcs_9	1
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+mcs_10	1
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_6_ifne]	# if (array == null || array.length == 0) {
+mcs_11	1
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_11_ifeq]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+mcs_12	1
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_13	1
+    org/apache/commons/lang3/StringUtils.java:1382:[1382_65_ireturn_ssa]	# return i;
+mcs_14	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_10_ifne]	# return cs == null || cs.length() == 0;
+mcs_15	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+mcs_16	1
+    org/apache/commons/lang3/StringUtils.java:1372:[1372_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+mcs_17	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_18_ireturn_ssa]	# return cs == null || cs.length() == 0;
+MaxSAT_TotalTime 	225
+MaxSAT_MaxTime 	36
+MaxSAT_AvgTime 	10.227272727272727
+MaxSAT_Count 	22
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

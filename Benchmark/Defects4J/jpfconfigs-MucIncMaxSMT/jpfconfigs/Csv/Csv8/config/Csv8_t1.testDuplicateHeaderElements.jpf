@@ -1,0 +1,7 @@
+testid=Csv8_t1.testDuplicateHeaderElements
+testclass=org.apache.commons.csv.CSVFormatTest
+testmethod=testDuplicateHeaderElements
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv8.jpf

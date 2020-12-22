@@ -1,0 +1,7 @@
+testid=Lang55_t1.testLang315
+testclass=org.apache.commons.lang.time.StopWatchTest
+testmethod=testLang315
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang55.jpf

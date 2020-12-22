@@ -1,0 +1,7 @@
+testid=Csv1_t1.testGetLineNumberWithCR
+testclass=org.apache.commons.csv.CSVParserTest
+testmethod=testGetLineNumberWithCR
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv1.jpf

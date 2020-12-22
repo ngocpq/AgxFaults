@@ -1,0 +1,7 @@
+testid=Mockito34_t1.shouldMatchCaptureArgumentsWhenArgsCountDoesNOTMatch
+testclass=org.mockito.internal.invocation.InvocationMatcherTest
+testmethod=shouldMatchCaptureArgumentsWhenArgsCountDoesNOTMatch
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito34.jpf

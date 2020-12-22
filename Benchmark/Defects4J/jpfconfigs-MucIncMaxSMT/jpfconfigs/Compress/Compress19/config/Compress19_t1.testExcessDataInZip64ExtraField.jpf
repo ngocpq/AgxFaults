@@ -1,0 +1,7 @@
+testid=Compress19_t1.testExcessDataInZip64ExtraField
+testclass=org.apache.commons.compress.archivers.zip.ZipFileTest
+testmethod=testExcessDataInZip64ExtraField
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress19.jpf

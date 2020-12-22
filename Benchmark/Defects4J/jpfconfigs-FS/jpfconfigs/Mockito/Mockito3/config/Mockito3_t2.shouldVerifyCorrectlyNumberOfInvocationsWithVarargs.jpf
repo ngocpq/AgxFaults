@@ -1,0 +1,7 @@
+testid=Mockito3_t2.shouldVerifyCorrectlyNumberOfInvocationsWithVarargs
+testclass=org.mockitousage.bugs.varargs.VarargsAndAnyObjectPicksUpExtraInvocationsTest
+testmethod=shouldVerifyCorrectlyNumberOfInvocationsWithVarargs
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito3.jpf

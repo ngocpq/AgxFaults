@@ -1,0 +1,7 @@
+testid=Codec17_t1.testNewStringNullInput_CODEC229
+testclass=org.apache.commons.codec.binary.StringUtilsTest
+testmethod=testNewStringNullInput_CODEC229
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec17.jpf

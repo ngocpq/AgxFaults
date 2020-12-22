@@ -1,0 +1,7 @@
+testid=Lang21_t1.testIsSameLocalTime_Cal
+testclass=org.apache.commons.lang3.time.DateUtilsTest
+testmethod=testIsSameLocalTime_Cal
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang21.jpf

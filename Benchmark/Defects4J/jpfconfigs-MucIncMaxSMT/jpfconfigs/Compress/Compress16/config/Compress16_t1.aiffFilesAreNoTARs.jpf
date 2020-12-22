@@ -1,0 +1,7 @@
+testid=Compress16_t1.aiffFilesAreNoTARs
+testclass=org.apache.commons.compress.archivers.ArchiveStreamFactoryTest
+testmethod=aiffFilesAreNoTARs
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress16.jpf

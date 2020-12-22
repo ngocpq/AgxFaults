@@ -1,0 +1,7 @@
+testid=Mockito12_t10.shouldLookForAnnotatedCaptorsInSuperClasses
+testclass=org.mockitousage.annotation.CaptorAnnotationTest
+testmethod=shouldLookForAnnotatedCaptorsInSuperClasses
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito12.jpf

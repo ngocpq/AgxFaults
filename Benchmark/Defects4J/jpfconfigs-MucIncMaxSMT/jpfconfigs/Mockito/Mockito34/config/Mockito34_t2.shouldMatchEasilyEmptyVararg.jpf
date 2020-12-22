@@ -1,0 +1,7 @@
+testid=Mockito34_t2.shouldMatchEasilyEmptyVararg
+testclass=org.mockitousage.basicapi.UsingVarargsTest
+testmethod=shouldMatchEasilyEmptyVararg
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito34.jpf

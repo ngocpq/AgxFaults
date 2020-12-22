@@ -1,0 +1,26 @@
+mcs_1	1
+    org/apache/commons/codec/binary/Base32.java:92:[92_1156_putstatic_ssa]	# private static final byte[] HEX_DECODE_TABLE = {
+mcs_2	1
+    org/apache/commons/codec/binary/Base32.java:285:[285_35_putfield_ssa]	# this.decodeTable = HEX_DECODE_TABLE;
+mcs_3	1
+    org/apache/commons/codec/binary/Base32.java:283:[283_21_ifeq]	# if (useHex) {
+mcs_4	1
+    org/apache/commons/codec/binary/Base32.java:308:[308_201_ifne]	# if (isInAlphabet(pad) || isWhiteSpace(pad)) {
+mcs_5	1
+    org/apache/commons/codec/binary/Base32.java:92:[92_1155_bastore]	# private static final byte[] HEX_DECODE_TABLE = {
+mcs_6	1
+    org/apache/commons/codec/binary/Base32.java:537:[537_10_if_icmpge]	# return octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1;
+mcs_7	1
+    org/apache/commons/codec/binary/Base32.java:537:[537_1_iflt]	# return octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1;
+mcs_8	1
+    org/apache/commons/codec/binary/Base32.java:537:[537_20_if_icmpeq]	# return octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1;
+mcs_9	1
+    org/apache/commons/codec/binary/Base32.java:537:[537_28_ireturn_ssa]	# return octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1;
+MaxSAT_TotalTime 	193
+MaxSAT_MaxTime 	60
+MaxSAT_AvgTime 	13.785714285714286
+MaxSAT_Count 	14
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

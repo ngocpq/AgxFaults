@@ -1,0 +1,7 @@
+testid=Mockito26_t2.should_return_primitive
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest
+testmethod=should_return_primitive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito26.jpf

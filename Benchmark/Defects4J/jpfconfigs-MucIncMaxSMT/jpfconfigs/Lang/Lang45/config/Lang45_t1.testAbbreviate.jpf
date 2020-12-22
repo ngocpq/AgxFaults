@@ -1,0 +1,7 @@
+testid=Lang45_t1.testAbbreviate
+testclass=org.apache.commons.lang.WordUtilsTest
+testmethod=testAbbreviate
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang45.jpf

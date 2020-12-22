@@ -1,0 +1,7 @@
+testid=Math48_t1.testIssue631
+testclass=org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest
+testmethod=testIssue631
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math48.jpf

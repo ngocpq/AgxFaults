@@ -1,0 +1,7 @@
+testid=Mockito25_t5.generic_deep_mock_frenzy__look_at_these_chained_calls
+testclass=org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest
+testmethod=generic_deep_mock_frenzy__look_at_these_chained_calls
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito25.jpf

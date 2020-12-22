@@ -1,0 +1,7 @@
+testid=Codec12_t12.testSkipBig
+testclass=org.apache.commons.codec.binary.Base64InputStreamTest
+testmethod=testSkipBig
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec12.jpf

@@ -1,0 +1,26 @@
+mcs_1	1
+    org/apache/commons/lang3/StringUtils.java:1570:[1570_4_ifne]	# if (isEmpty(str) || isEmpty(searchChars)) {
+mcs_2	1
+    org/apache/commons/lang3/StringUtils.java:1577:[1577_45_ireturn_ssa]	# return i;
+mcs_3	1
+    org/apache/commons/lang3/StringUtils.java:1574:[1574_22_istore_3]	# for (int i = 0; i < strLen; i++) {
+mcs_4	1
+    org/apache/commons/lang3/StringUtils.java:1573:[1573_20_istore_2]	# int strLen = str.length();
+mcs_5	1
+    org/apache/commons/lang3/StringUtils.java:1570:[1570_11_ifeq]	# if (isEmpty(str) || isEmpty(searchChars)) {
+mcs_6	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_18_ireturn_ssa]	# return cs == null || cs.length() == 0;
+mcs_7	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+mcs_8	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_10_ifne]	# return cs == null || cs.length() == 0;
+mcs_9	1
+    org/apache/commons/lang3/StringUtils.java:1574:[1574_46_iinc_ssa]	# for (int i = 0; i < strLen; i++) {
+MaxSAT_TotalTime 	148
+MaxSAT_MaxTime 	45
+MaxSAT_AvgTime 	10.571428571428571
+MaxSAT_Count 	14
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

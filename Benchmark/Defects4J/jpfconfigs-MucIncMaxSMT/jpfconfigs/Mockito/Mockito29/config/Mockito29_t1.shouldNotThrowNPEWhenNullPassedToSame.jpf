@@ -1,0 +1,7 @@
+testid=Mockito29_t1.shouldNotThrowNPEWhenNullPassedToSame
+testclass=org.mockitousage.bugs.NPEWithCertainMatchersTest
+testmethod=shouldNotThrowNPEWhenNullPassedToSame
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito29.jpf

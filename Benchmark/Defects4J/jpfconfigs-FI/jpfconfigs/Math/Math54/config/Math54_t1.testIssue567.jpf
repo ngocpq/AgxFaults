@@ -1,0 +1,7 @@
+testid=Math54_t1.testIssue567
+testclass=org.apache.commons.math.dfp.DfpTest
+testmethod=testIssue567
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math54.jpf

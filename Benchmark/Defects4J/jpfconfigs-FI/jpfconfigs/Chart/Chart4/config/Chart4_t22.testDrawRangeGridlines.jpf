@@ -1,0 +1,7 @@
+testid=Chart4_t22.testDrawRangeGridlines
+testclass=org.jfree.chart.plot.junit.XYPlotTests
+testmethod=testDrawRangeGridlines
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart4.jpf

@@ -1,0 +1,7 @@
+testid=Lang8_t2.testCalendarTimezoneRespected
+testclass=org.apache.commons.lang3.time.FastDatePrinterTest
+testmethod=testCalendarTimezoneRespected
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang8.jpf

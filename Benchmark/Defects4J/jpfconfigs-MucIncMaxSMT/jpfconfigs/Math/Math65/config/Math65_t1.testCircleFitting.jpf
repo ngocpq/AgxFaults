@@ -1,0 +1,7 @@
+testid=Math65_t1.testCircleFitting
+testclass=org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest
+testmethod=testCircleFitting
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math65.jpf

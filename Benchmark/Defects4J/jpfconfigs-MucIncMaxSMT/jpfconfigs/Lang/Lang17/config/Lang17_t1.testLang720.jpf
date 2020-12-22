@@ -1,0 +1,7 @@
+testid=Lang17_t1.testLang720
+testclass=org.apache.commons.lang3.StringEscapeUtilsTest
+testmethod=testLang720
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang17.jpf

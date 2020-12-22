@@ -1,0 +1,7 @@
+testid=Lang41_t1.test_getShortClassName_Class
+testclass=org.apache.commons.lang.ClassUtilsTest
+testmethod=test_getShortClassName_Class
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang41.jpf

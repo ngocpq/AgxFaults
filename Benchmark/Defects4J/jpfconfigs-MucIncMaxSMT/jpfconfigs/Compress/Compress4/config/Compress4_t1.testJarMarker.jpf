@@ -1,0 +1,7 @@
+testid=Compress4_t1.testJarMarker
+testclass=org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest
+testmethod=testJarMarker
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress4.jpf

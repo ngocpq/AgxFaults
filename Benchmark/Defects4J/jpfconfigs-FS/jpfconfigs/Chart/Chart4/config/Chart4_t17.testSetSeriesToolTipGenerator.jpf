@@ -1,0 +1,7 @@
+testid=Chart4_t17.testSetSeriesToolTipGenerator
+testclass=org.jfree.chart.junit.XYStepAreaChartTests
+testmethod=testSetSeriesToolTipGenerator
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart4.jpf

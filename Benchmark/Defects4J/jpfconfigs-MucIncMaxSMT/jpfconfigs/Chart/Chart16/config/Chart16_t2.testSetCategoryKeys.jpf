@@ -1,0 +1,7 @@
+testid=Chart16_t2.testSetCategoryKeys
+testclass=org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests
+testmethod=testSetCategoryKeys
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart16.jpf

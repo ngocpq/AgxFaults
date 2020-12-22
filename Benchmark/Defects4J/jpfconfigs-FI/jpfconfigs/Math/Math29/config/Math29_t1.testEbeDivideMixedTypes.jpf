@@ -1,0 +1,7 @@
+testid=Math29_t1.testEbeDivideMixedTypes
+testclass=org.apache.commons.math3.linear.SparseRealVectorTest
+testmethod=testEbeDivideMixedTypes
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math29.jpf

@@ -1,0 +1,7 @@
+testid=Codec11_t4.testUltimateSoftBreak
+testclass=org.apache.commons.codec.net.QuotedPrintableCodecTest
+testmethod=testUltimateSoftBreak
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec11.jpf

@@ -1,0 +1,7 @@
+testid=Math66_t3.testQuinticMinStatistics
+testclass=org.apache.commons.math.optimization.univariate.BrentOptimizerTest
+testmethod=testQuinticMinStatistics
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math66.jpf

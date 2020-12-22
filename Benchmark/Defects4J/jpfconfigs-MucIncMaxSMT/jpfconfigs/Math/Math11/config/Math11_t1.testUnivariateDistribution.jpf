@@ -1,0 +1,7 @@
+testid=Math11_t1.testUnivariateDistribution
+testclass=org.apache.commons.math3.distribution.MultivariateNormalDistributionTest
+testmethod=testUnivariateDistribution
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math11.jpf

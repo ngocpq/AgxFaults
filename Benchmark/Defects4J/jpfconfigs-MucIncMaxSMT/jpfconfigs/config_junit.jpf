@@ -1,0 +1,30 @@
+#@using jpf-ffl
+@include=./jpf-ffl.jpf
+
++classpath=${jpf-ffl}/lib/junit-4.10.jar;${jpf-ffl}/build/jpf-ffl.jar;
++sourcepath=${jpf-ffl}/lib/junit-4.10-sources.jar;
+
+target=agxfaults.junit.MyJUnitTestRunner
+target.args=${testclass};${testmethod}
+
+concolic.method.tcas=${testclass}.${testmethod}()
+
+concolic.method=tcas
+concolic.method.tcas.config=tcas
+
+jdart.configs.tcas.symbolic.include=*
+jdart.configs.caller.exploration.initial=false
+
+#fault localization config
+jdart.configs.tcas.faultlocalization.enabled=true
+#NONE, SINGLE_PATH, ANGELIC
+jdart.configs.tcas.faultlocalization.formulatype=ANGELIC
+
+
+jdart.configs.tcas.faultlocalization.angelicLocation=*
++jdart.configs.tcas.faultlocalization.excludeLocation=agxfaults.junit.MyJUnitTestRunner.*;junit.*;org.junit.*;${testclass}.*;java.*;sun.*;
+
+#INFO, FINE, FINER, FINEST
+log.level=INFO
+#log.output=err
+

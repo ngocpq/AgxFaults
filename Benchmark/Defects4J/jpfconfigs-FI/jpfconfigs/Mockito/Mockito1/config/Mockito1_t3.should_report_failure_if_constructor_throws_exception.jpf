@@ -1,0 +1,7 @@
+testid=Mockito1_t3.should_report_failure_if_constructor_throws_exception
+testclass=org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest
+testmethod=should_report_failure_if_constructor_throws_exception
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

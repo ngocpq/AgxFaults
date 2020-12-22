@@ -1,0 +1,7 @@
+testid=Math70_t1.testMath369
+testclass=org.apache.commons.math.analysis.solvers.BisectionSolverTest
+testmethod=testMath369
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math70.jpf

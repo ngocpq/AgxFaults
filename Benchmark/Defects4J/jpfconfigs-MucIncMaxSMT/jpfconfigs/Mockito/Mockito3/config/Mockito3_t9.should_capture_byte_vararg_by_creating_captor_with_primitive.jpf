@@ -1,0 +1,7 @@
+testid=Mockito3_t9.should_capture_byte_vararg_by_creating_captor_with_primitive
+testclass=org.mockitousage.matchers.CapturingArgumentsTest
+testmethod=should_capture_byte_vararg_by_creating_captor_with_primitive
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito3.jpf

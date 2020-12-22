@@ -1,0 +1,29 @@
+mcs_1	2
+    org/apache/commons/lang3/StringUtils.java:1449:[1449_60_if_icmpne]	# if (searchChars[j] == ch) {
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_2	2
+    org/apache/commons/lang3/StringUtils.java:1441:[1441_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_3	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_10_ifne]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_4	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_18_ireturn_ssa]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_5	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/ArrayUtils.java:3282:[3282_12_ireturn_ssa]	# return false;
+mcs_6	2
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+    org/apache/commons/lang3/StringUtils.java:1441:[1441_11_ifeq]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+mcs_7	1
+    org/apache/commons/lang3/StringUtils.java:194:[194_1_ifnull]	# return cs == null || cs.length() == 0;
+mcs_8	2
+    org/apache/commons/lang3/StringUtils.java:1441:[1441_4_ifne]	# if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+mcs_9	2
+    org/apache/commons/lang3/StringUtils.java:1445:[1445_25_istore_3]	# int searchLength = searchChars.length;
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+mcs_10	2
+    org/apache/commons/lang3/ArrayUtils.java:3279:[3279_1_ifnull]	# if (array == null || array.length == 0) {
+    org/apache/commons/lang3/StringUtils.java:1448:[1448_51_if_icmpge]	# for (int j = 0; j < searchLength; j++) {

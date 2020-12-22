@@ -1,0 +1,7 @@
+testid=Codec13_t1.testIsDoubleMetaphoneEqualBasic
+testclass=org.apache.commons.codec.language.DoubleMetaphoneTest
+testmethod=testIsDoubleMetaphoneEqualBasic
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec13.jpf

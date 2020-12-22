@@ -1,0 +1,7 @@
+testid=Compress37_t1.survivesBlankLinesInPaxHeader
+testclass=org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+testmethod=survivesBlankLinesInPaxHeader
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress37.jpf

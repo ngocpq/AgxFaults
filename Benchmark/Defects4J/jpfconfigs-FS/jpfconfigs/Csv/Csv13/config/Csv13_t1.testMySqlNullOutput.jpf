@@ -1,0 +1,7 @@
+testid=Csv13_t1.testMySqlNullOutput
+testclass=org.apache.commons.csv.CSVPrinterTest
+testmethod=testMySqlNullOutput
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv13.jpf

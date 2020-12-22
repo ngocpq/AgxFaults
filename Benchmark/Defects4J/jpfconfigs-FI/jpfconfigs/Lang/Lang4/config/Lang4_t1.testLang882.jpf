@@ -1,0 +1,7 @@
+testid=Lang4_t1.testLang882
+testclass=org.apache.commons.lang3.text.translate.LookupTranslatorTest
+testmethod=testLang882
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Lang4.jpf

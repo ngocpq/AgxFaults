@@ -1,0 +1,7 @@
+testid=Compress25_t1.testReadingOfFirstStoredEntry
+testclass=org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest
+testmethod=testReadingOfFirstStoredEntry
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress25.jpf

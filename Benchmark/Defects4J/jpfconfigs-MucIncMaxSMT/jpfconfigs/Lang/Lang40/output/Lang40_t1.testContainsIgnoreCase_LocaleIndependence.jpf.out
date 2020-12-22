@@ -1,0 +1,40 @@
+mcs_1	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_5_ifnonnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1018:[1018_23_ireturn_ssa]	# return str.indexOf(searchStr) >= 0;
+mcs_2	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_5_ifnonnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1018:[1018_15_iflt]	# return str.indexOf(searchStr) >= 0;
+mcs_3	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_5_ifnonnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1045:[1045_1_ifnull]	# if (str == null || searchStr == null) {
+mcs_4	1
+    org/apache/commons/lang/StringUtils.java:1015:[1015_5_ifnonnull]	# if (str == null || searchStr == null) {
+mcs_5	1
+    org/apache/commons/lang/StringUtils.java:1045:[1045_1_ifnull]	# if (str == null || searchStr == null) {
+mcs_6	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_1_ifnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1048:[1048_21_ireturn_ssa]	# return contains(str.toUpperCase(), searchStr.toUpperCase());
+mcs_7	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_1_ifnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1018:[1018_15_iflt]	# return str.indexOf(searchStr) >= 0;
+mcs_8	1
+    org/apache/commons/lang/StringUtils.java:1048:[1048_21_ireturn_ssa]	# return contains(str.toUpperCase(), searchStr.toUpperCase());
+mcs_9	2
+    org/apache/commons/lang/StringUtils.java:1015:[1015_1_ifnull]	# if (str == null || searchStr == null) {
+    org/apache/commons/lang/StringUtils.java:1018:[1018_23_ireturn_ssa]	# return str.indexOf(searchStr) >= 0;
+mcs_10	1
+    org/apache/commons/lang/StringUtils.java:1015:[1015_1_ifnull]	# if (str == null || searchStr == null) {
+mcs_11	1
+    org/apache/commons/lang/StringUtils.java:1045:[1045_5_ifnonnull]	# if (str == null || searchStr == null) {
+mcs_12	1
+    org/apache/commons/lang/StringUtils.java:1018:[1018_15_iflt]	# return str.indexOf(searchStr) >= 0;
+mcs_13	1
+    org/apache/commons/lang/StringUtils.java:1018:[1018_23_ireturn_ssa]	# return str.indexOf(searchStr) >= 0;
+MaxSAT_TotalTime 	411
+MaxSAT_MaxTime 	34
+MaxSAT_AvgTime 	9.133333333333333
+MaxSAT_Count 	45
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

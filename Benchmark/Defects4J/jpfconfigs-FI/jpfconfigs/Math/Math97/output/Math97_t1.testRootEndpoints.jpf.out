@@ -1,0 +1,16 @@
+mcs_1	1
+    org/apache/commons/math/analysis/BrentSolver.java:137:[137_44_dstore]	# double sign = yMin * yMax;
+mcs_2	1
+    org/apache/commons/math/analysis/BrentSolver.java:133:[133_25_dstore]	# double yMin = f.value(min);
+mcs_3	1
+    org/apache/commons/math/analysis/BrentSolver.java:134:[134_37_dstore]	# double yMax = f.value(max);
+mcs_4	1
+    org/apache/commons/math/analysis/BrentSolver.java:138:[138_50_iflt]	# if (sign >= 0) {
+MaxSAT_TotalTime 	116
+MaxSAT_MaxTime 	31
+MaxSAT_AvgTime 	12.88888888888889
+MaxSAT_Count 	9
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

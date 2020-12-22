@@ -1,0 +1,7 @@
+testid=Csv2_t1.testGetStringInconsistentRecord
+testclass=org.apache.commons.csv.CSVRecordTest
+testmethod=testGetStringInconsistentRecord
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Csv2.jpf

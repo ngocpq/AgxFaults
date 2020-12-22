@@ -1,0 +1,7 @@
+testid=Math36_t2.testDoubleValueForLargeNumeratorAndDenominator
+testclass=org.apache.commons.math.fraction.BigFractionTest
+testmethod=testDoubleValueForLargeNumeratorAndDenominator
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Math36.jpf

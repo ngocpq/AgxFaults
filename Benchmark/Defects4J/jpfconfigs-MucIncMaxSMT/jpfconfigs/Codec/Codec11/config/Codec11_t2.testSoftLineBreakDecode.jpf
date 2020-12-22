@@ -1,0 +1,7 @@
+testid=Codec11_t2.testSoftLineBreakDecode
+testclass=org.apache.commons.codec.net.QuotedPrintableCodecTest
+testmethod=testSoftLineBreakDecode
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec11.jpf

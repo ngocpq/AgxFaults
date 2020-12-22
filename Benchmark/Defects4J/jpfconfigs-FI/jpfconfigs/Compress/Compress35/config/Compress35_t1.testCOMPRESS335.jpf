@@ -1,0 +1,7 @@
+testid=Compress35_t1.testCOMPRESS335
+testclass=org.apache.commons.compress.DetectArchiverTestCase
+testmethod=testCOMPRESS335
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress35.jpf

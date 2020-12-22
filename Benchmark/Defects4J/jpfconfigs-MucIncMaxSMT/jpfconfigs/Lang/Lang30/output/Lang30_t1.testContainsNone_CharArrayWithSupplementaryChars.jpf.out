@@ -1,0 +1,54 @@
+mcs_1	2
+    org/apache/commons/lang3/StringUtils.java:1680:[1680_37_istore]	# char ch = cs.charAt(i);
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+mcs_2	2
+    org/apache/commons/lang3/StringUtils.java:1680:[1680_37_istore]	# char ch = cs.charAt(i);
+    org/apache/commons/lang3/StringUtils.java:1677:[1677_16_istore_2]	# int csLen = cs.length();
+mcs_3	2
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_21_istore]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1680:[1680_37_istore]	# char ch = cs.charAt(i);
+mcs_4	2
+    org/apache/commons/lang3/StringUtils.java:1681:[1681_45_if_icmpge]	# for (int j = 0; j < searchLen; j++) {
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_1_ifnull]	# if (cs == null || searchChars == null) {
+mcs_5	1
+    org/apache/commons/lang3/StringUtils.java:1681:[1681_45_if_icmpge]	# for (int j = 0; j < searchLen; j++) {
+mcs_6	1
+    org/apache/commons/lang3/StringUtils.java:1685:[1685_58_ireturn_ssa]	# return false;
+mcs_7	1
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_1_ifnull]	# if (cs == null || searchChars == null) {
+mcs_8	2
+    org/apache/commons/lang3/StringUtils.java:1678:[1678_19_istore_3]	# int searchLen = searchChars.length;
+    org/apache/commons/lang3/StringUtils.java:1682:[1682_54_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_9	2
+    org/apache/commons/lang3/StringUtils.java:1677:[1677_16_istore_2]	# int csLen = cs.length();
+    org/apache/commons/lang3/StringUtils.java:1682:[1682_54_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_10	2
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+    org/apache/commons/lang3/StringUtils.java:1682:[1682_54_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_11	2
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_5_ifnonnull]	# if (cs == null || searchChars == null) {
+    org/apache/commons/lang3/StringUtils.java:1682:[1682_54_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_12	1
+    org/apache/commons/lang3/StringUtils.java:1682:[1682_54_if_icmpne]	# if (searchChars[j] == ch) {
+mcs_13	1
+    org/apache/commons/lang3/StringUtils.java:1678:[1678_19_istore_3]	# int searchLen = searchChars.length;
+mcs_14	1
+    org/apache/commons/lang3/StringUtils.java:1680:[1680_37_istore]	# char ch = cs.charAt(i);
+mcs_15	1
+    org/apache/commons/lang3/StringUtils.java:1674:[1674_5_ifnonnull]	# if (cs == null || searchChars == null) {
+mcs_16	1
+    org/apache/commons/lang3/StringUtils.java:1677:[1677_16_istore_2]	# int csLen = cs.length();
+mcs_17	1
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_26_if_icmpge]	# for (int i = 0; i < csLen; i++) {
+mcs_18	1
+    org/apache/commons/lang3/StringUtils.java:1679:[1679_21_istore]	# for (int i = 0; i < csLen; i++) {
+mcs_19	1
+    org/apache/commons/lang3/StringUtils.java:1681:[1681_40_istore]	# for (int j = 0; j < searchLen; j++) {
+MaxSAT_TotalTime 	482
+MaxSAT_MaxTime 	40
+MaxSAT_AvgTime 	15.548387096774194
+MaxSAT_Count 	31
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

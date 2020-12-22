@@ -1,0 +1,7 @@
+testid=Mockito1_t24.should_evaluate_latest_stubbing_first
+testclass=org.mockitousage.stubbing.BasicStubbingTest
+testmethod=should_evaluate_latest_stubbing_first
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

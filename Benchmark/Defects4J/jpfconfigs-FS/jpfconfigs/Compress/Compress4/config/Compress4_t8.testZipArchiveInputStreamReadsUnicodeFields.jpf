@@ -1,0 +1,7 @@
+testid=Compress4_t8.testZipArchiveInputStreamReadsUnicodeFields
+testclass=org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+testmethod=testZipArchiveInputStreamReadsUnicodeFields
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress4.jpf

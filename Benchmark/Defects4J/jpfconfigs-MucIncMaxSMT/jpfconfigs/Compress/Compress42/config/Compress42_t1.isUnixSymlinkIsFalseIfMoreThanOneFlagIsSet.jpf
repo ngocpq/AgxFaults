@@ -1,0 +1,7 @@
+testid=Compress42_t1.isUnixSymlinkIsFalseIfMoreThanOneFlagIsSet
+testclass=org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest
+testmethod=isUnixSymlinkIsFalseIfMoreThanOneFlagIsSet
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress42.jpf

@@ -1,0 +1,7 @@
+testid=Compress13_t2.testWinzipBackSlashWorkaround
+testclass=org.apache.commons.compress.archivers.zip.ZipFileTest
+testmethod=testWinzipBackSlashWorkaround
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Compress13.jpf

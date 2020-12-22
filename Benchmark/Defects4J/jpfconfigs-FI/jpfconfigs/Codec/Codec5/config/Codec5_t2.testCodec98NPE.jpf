@@ -1,0 +1,7 @@
+testid=Codec5_t2.testCodec98NPE
+testclass=org.apache.commons.codec.binary.Base64OutputStreamTest
+testmethod=testCodec98NPE
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Codec5.jpf

@@ -1,0 +1,22 @@
+mcs_1	1
+    org/jfree/data/time/TimePeriodValues.java:100:[100_22_putfield_ssa]	# private int maxMiddleIndex = -1;
+mcs_2	1
+    org/jfree/data/time/TimePeriodValues.java:310:[310_294_putfield_ssa]	# this.maxMiddleIndex = index;
+mcs_3	1
+    org/jfree/data/time/TimePeriodValues.java:306:[306_286_putfield_ssa]	# this.maxMiddleIndex = index;
+mcs_4	1
+    org/jfree/data/time/TimePeriodValues.java:304:[304_274_lstore]	# long maxMiddle = s + (e - s) / 2;
+mcs_5	1
+    org/jfree/data/time/TimePeriodValues.java:300:[300_239_lstore]	# long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+mcs_6	1
+    org/jfree/data/time/TimePeriodValues.java:305:[305_281_ifle]	# if (middle > maxMiddle) {
+mcs_7	1
+    org/jfree/data/time/TimePeriodValues.java:302:[302_260_lstore]	# long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+MaxSAT_TotalTime 	3595
+MaxSAT_MaxTime 	907
+MaxSAT_AvgTime 	299.5833333333333
+MaxSAT_Count 	12
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

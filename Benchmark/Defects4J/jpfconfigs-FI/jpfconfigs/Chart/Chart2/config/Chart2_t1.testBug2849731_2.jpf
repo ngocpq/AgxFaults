@@ -1,0 +1,7 @@
+testid=Chart2_t1.testBug2849731_2
+testclass=org.jfree.data.general.junit.DatasetUtilitiesTests
+testmethod=testBug2849731_2
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Chart2.jpf

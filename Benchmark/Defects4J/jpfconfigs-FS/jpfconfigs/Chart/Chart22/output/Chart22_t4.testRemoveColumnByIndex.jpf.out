@@ -1,0 +1,30 @@
+mcs_1	1
+    org/jfree/data/KeyedObjects2D.java:77:[77_34_putfield_ssa]	# this.rows = new java.util.ArrayList();
+mcs_2	1
+    org/jfree/data/KeyedObjects.java:202:[202_7_iflt]	# if (keyIndex >= 0) {
+mcs_3	1
+    org/jfree/data/KeyedObjects2D.java:376:[376_58_ifeq]	# while (iterator.hasNext()) {
+mcs_4	1
+    org/jfree/data/KeyedObjects.java:267:[267_7_ifge]	# if (index < 0) {
+mcs_5	1
+    org/jfree/data/KeyedObjects.java:135:[135_55_ifeq]	# if (ko.getKey().equals(key)) {
+mcs_6	1
+    org/jfree/data/KeyedObjects.java:266:[266_5_istore_2]	# int index = getIndex(key);
+mcs_7	1
+    org/jfree/data/KeyedObjects.java:68:[68_12_putfield_ssa]	# this.data = new java.util.ArrayList();
+mcs_8	1
+    org/jfree/data/KeyedObjects2D.java:270:[270_42_iflt]	# if (rowIndex >= 0) {
+mcs_9	1
+    org/jfree/data/KeyedObjects2D.java:269:[269_38_istore]	# int rowIndex = this.rowKeys.indexOf(rowKey);
+mcs_10	1
+    org/jfree/data/KeyedObjects.java:201:[201_5_istore_3]	# int keyIndex = getIndex(key);
+mcs_11	1
+    org/jfree/data/KeyedObjects.java:140:[140_67_ireturn_ssa]	# return -1;
+MaxSAT_TotalTime 	329
+MaxSAT_MaxTime 	59
+MaxSAT_AvgTime 	20.5625
+MaxSAT_Count 	16
+CheckPath_TotalTime 	-1
+CheckPath_MaxTime 	-1
+CheckPath_AvgTime 	1.0
+CheckPath_Count 	-1

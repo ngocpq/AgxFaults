@@ -1,0 +1,7 @@
+testid=Mockito1_t4.should_fail_if_an_argument_instance_type_do_not_match_wanted_type
+testclass=org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest
+testmethod=should_fail_if_an_argument_instance_type_do_not_match_wanted_type
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito1.jpf

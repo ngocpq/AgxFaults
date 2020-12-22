@@ -1,0 +1,7 @@
+testid=Mockito10_t1.should_not_raise_a_mockito_exception_about_serialization_when_accessing_deep_stub
+testclass=org.mockitousage.bugs.DeepStubsWronglyReportsSerializationProblemsTest
+testmethod=should_not_raise_a_mockito_exception_about_serialization_when_accessing_deep_stub
+jdart.log.output=${config_path}/../output/${testid}.jpf.log
+ffl.report.filepath=${config_path}/../output/${testid}.jpf.out
+
+@include=../defects4j_Mockito10.jpf
